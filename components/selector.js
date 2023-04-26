@@ -1305,6 +1305,14 @@ const Selector = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .selector-container {
+              padding-left: 0px;
+              padding-right: 0px;
+            }
+            .selector-caption {
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+            }
             .selector-sorting {
               gap: var(--dl-space-space-halfunit);
               flex-wrap: wrap;
