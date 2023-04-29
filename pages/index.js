@@ -761,24 +761,30 @@ const Home = (props) => {
             height: var(--dl-size-size-xsmall);
           }
           .home-nav1 {
+            gap: var(--dl-space-space-unit);
             flex: 0 0 auto;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
           .home-link04 {
+            color: var(--dl-color-gray-black);
             text-decoration: none;
           }
           .home-link05 {
+            color: var(--dl-color-gray-black);
             text-decoration: none;
           }
           .home-link06 {
+            color: var(--dl-color-gray-black);
             text-decoration: none;
           }
           .home-link07 {
+            color: var(--dl-color-gray-black);
             text-decoration: none;
           }
           .home-text {
+            color: var(--dl-color-gray-black);
             text-decoration: none;
           }
           .home-container2 {
