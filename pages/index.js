@@ -45,9 +45,9 @@ const Home = (props) => {
                     <Link href="/area-dos-professores">
                       <a className="home-link02 link">Professores</a>
                     </Link>
-                    <a href="#find" className="home-link03 link">
-                      Alunos
-                    </a>
+                    <Link href="/area-dos-alunos">
+                      <a className="home-link03 link">Alunos</a>
+                    </Link>
                   </div>
                   <button className="home-hamburger button">
                     <svg viewBox="0 0 1024 1024" className="home-icon">

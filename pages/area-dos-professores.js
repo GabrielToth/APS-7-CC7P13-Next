@@ -19,11 +19,11 @@ const AreaDosProfessores = (props) => {
             src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
             className="area-dos-professores-image"
           />
-          <div className="area-dos-professores-container1">
+          <div className="area-dos-professores-container01">
             <nav className="area-dos-professores-nav">
               <span className="area-dos-professores-text">Notas</span>
-              <span className="area-dos-professores-text01">Faltas</span>
-              <span className="area-dos-professores-text02">Matérias</span>
+              <span className="area-dos-professores-text001">Faltas</span>
+              <span className="area-dos-professores-text002">Matérias</span>
             </nav>
           </div>
           <div
@@ -39,7 +39,7 @@ const AreaDosProfessores = (props) => {
             className="area-dos-professores-mobile-menu"
           >
             <nav className="area-dos-professores-nav1">
-              <div className="area-dos-professores-container2">
+              <div className="area-dos-professores-container02">
                 <img
                   alt="image"
                   src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
@@ -81,76 +81,292 @@ const AreaDosProfessores = (props) => {
             </div>
           </div>
         </header>
-        <div className="area-dos-professores-container3">
+        <div className="area-dos-professores-container03">
           <nav className="area-dos-professores-sidebar">
             <div className="area-dos-professores-nav-itens">
               <div className="area-dos-professores-nav-item">
-                <span className="area-dos-professores-text03">Períodos</span>
+                <span className="area-dos-professores-text003">Períodos</span>
                 <div className="area-dos-professores-options">
-                  <span className="area-dos-professores-text04">
+                  <span className="area-dos-professores-text004">
                     <span>Manhã</span>
                     <br></br>
                   </span>
-                  <span className="area-dos-professores-text07">
+                  <span className="area-dos-professores-text007">
                     <span>Tarde</span>
                     <br></br>
                   </span>
-                  <span className="area-dos-professores-text10">
+                  <span className="area-dos-professores-text010">
                     <span>Noite</span>
                     <br></br>
                   </span>
                 </div>
               </div>
               <div className="area-dos-professores-nav-item1">
-                <span className="area-dos-professores-text13">Séries</span>
+                <span className="area-dos-professores-text013">Séries</span>
                 <div className="area-dos-professores-options1">
-                  <span className="area-dos-professores-text14">1° Séries</span>
-                  <span className="area-dos-professores-text15">2° Séries</span>
-                  <span className="area-dos-professores-text16">3° Séries</span>
-                  <span className="area-dos-professores-text17">Ver mais</span>
+                  <span className="area-dos-professores-text014">
+                    1° Séries
+                  </span>
+                  <span className="area-dos-professores-text015">
+                    2° Séries
+                  </span>
+                  <span className="area-dos-professores-text016">
+                    3° Séries
+                  </span>
+                  <span className="area-dos-professores-text017">Ver mais</span>
                 </div>
               </div>
               <div className="area-dos-professores-nav-item2">
-                <span className="area-dos-professores-text18">
+                <span className="area-dos-professores-text018">
                   <span>CURSOS</span>
                   <br></br>
                 </span>
                 <div className="area-dos-professores-options2">
-                  <span className="area-dos-professores-text21">
+                  <span className="area-dos-professores-text021">
                     [001-1-1] Biomecânica
                   </span>
-                  <span className="area-dos-professores-text22">
+                  <span className="area-dos-professores-text022">
                     [001-2-1] Biomêcanica
                   </span>
-                  <span className="area-dos-professores-text23">
+                  <span className="area-dos-professores-text023">
                     [002-5-3] Biomedicina
                   </span>
-                  <span className="area-dos-professores-text24">Ver mais</span>
+                  <span className="area-dos-professores-text024">Ver mais</span>
+                </div>
+              </div>
+              <div className="area-dos-professores-nav-item3">
+                <span className="area-dos-professores-text025">
+                  <span>Matéria</span>
+                  <br></br>
+                </span>
+                <div className="area-dos-professores-options3">
+                  <span className="area-dos-professores-text028">
+                    Informática
+                  </span>
+                  <span className="area-dos-professores-text029">
+                    Laboratório
+                  </span>
+                  <span className="area-dos-professores-text030">Ciências</span>
+                  <span className="area-dos-professores-text031">Ver mais</span>
                 </div>
               </div>
             </div>
             <div className="area-dos-professores-profile">
-              <div className="area-dos-professores-container4">
+              <div className="area-dos-professores-container04">
                 <img
                   alt="image"
                   src="https://images.unsplash.com/photo-1562159278-1253a58da141?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIyfHxtYW4lMjBwb3J0dHJhaXR8ZW58MHx8fHwxNjI3MjkzNTM1&amp;ixlib=rb-1.2.1&amp;w=200"
                   className="area-dos-professores-image2"
                 />
-                <div className="area-dos-professores-container5">
-                  <span className="area-dos-professores-text25">John Doe</span>
-                  <span className="area-dos-professores-text26">Professor</span>
+                <div className="area-dos-professores-container05">
+                  <span className="area-dos-professores-text032">John Doe</span>
+                  <span className="area-dos-professores-text033">
+                    Professor
+                  </span>
                 </div>
               </div>
-              <h1 className="area-dos-professores-text27">...</h1>
+              <h1 className="area-dos-professores-text034">...</h1>
             </div>
           </nav>
-          <div className="area-dos-professores-container6">
-            <div className="area-dos-professores-container7">
-              <h1 className="area-dos-professores-text28">
+          <div className="area-dos-professores-container06">
+            <div className="area-dos-professores-container07">
+              <h1 className="area-dos-professores-text035">
                 Curso: Biomecânica
               </h1>
-              <h1 className="area-dos-professores-text29">Série: 1</h1>
-              <h1 className="area-dos-professores-text30">Período: Manhã</h1>
+              <h1 className="area-dos-professores-text036">
+                Matéria: Informática
+              </h1>
+              <h1 className="area-dos-professores-text037">Série: 1</h1>
+              <h1 className="area-dos-professores-text038">Período: Manhã</h1>
+            </div>
+            <div className="area-dos-professores-container08">
+              <h1 className="area-dos-professores-text039">RA</h1>
+              <h1 className="area-dos-professores-text040">Cursando</h1>
+              <h1 className="area-dos-professores-text041">Nome</h1>
+              <h1 className="area-dos-professores-text042">
+                <span>Faltas</span>
+                <br></br>
+              </h1>
+            </div>
+            <div className="area-dos-professores-container09">
+              <h1 className="area-dos-professores-text045">U3F0SAC</h1>
+              <h1 className="area-dos-professores-text046">Ativo</h1>
+              <h1 className="area-dos-professores-text047">
+                Roberto Almeida da Silva
+              </h1>
+              <h1 className="area-dos-professores-text048">
+                <span>0</span>
+                <br></br>
+              </h1>
+            </div>
+            <div className="area-dos-professores-container10">
+              <h1 className="area-dos-professores-text051">OF289HA</h1>
+              <h1 className="area-dos-professores-text052">Inativo</h1>
+              <h1 className="area-dos-professores-text053">Ana Biorge Hui</h1>
+              <h1 className="area-dos-professores-text054">
+                <span>3</span>
+                <br></br>
+              </h1>
+            </div>
+            <div className="area-dos-professores-container11">
+              <h1 className="area-dos-professores-text057">F982H89</h1>
+              <h1 className="area-dos-professores-text058">Ativo</h1>
+              <h1 className="area-dos-professores-text059">
+                Rui Alencar Urich
+              </h1>
+              <h1 className="area-dos-professores-text060">
+                <span>0</span>
+                <br></br>
+              </h1>
+            </div>
+            <div className="area-dos-professores-container12">
+              <h1 className="area-dos-professores-text063">8V1GPDA</h1>
+              <h1 className="area-dos-professores-text064">Ativo</h1>
+              <h1 className="area-dos-professores-text065">
+                Humberto Doisberto Tresberto
+              </h1>
+              <h1 className="area-dos-professores-text066">
+                <span>0</span>
+                <br></br>
+              </h1>
+            </div>
+            <div className="area-dos-professores-container13">
+              <h1 className="area-dos-professores-text069">9G83H9S</h1>
+              <h1 className="area-dos-professores-text070">Ativo</h1>
+              <h1 className="area-dos-professores-text071">Adriana de Jesus</h1>
+              <h1 className="area-dos-professores-text072">
+                <span>0</span>
+                <br></br>
+              </h1>
+            </div>
+            <div className="area-dos-professores-container14">
+              <h1 className="area-dos-professores-text075">GGJ884R</h1>
+              <h1 className="area-dos-professores-text076">Ativo</h1>
+              <h1 className="area-dos-professores-text077">
+                Fabiana Costa Souza
+              </h1>
+              <h1 className="area-dos-professores-text078">
+                <span>0</span>
+                <br></br>
+              </h1>
+            </div>
+            <div className="area-dos-professores-container15">
+              <h1 className="area-dos-professores-text081">9GJ498J</h1>
+              <h1 className="area-dos-professores-text082">Inativo</h1>
+              <h1 className="area-dos-professores-text083">
+                Alencar Albuquerque Putch
+              </h1>
+              <h1 className="area-dos-professores-text084">
+                <span>1</span>
+                <br></br>
+              </h1>
+            </div>
+            <div className="area-dos-professores-container16">
+              <h1 className="area-dos-professores-text087">D28D9AQ</h1>
+              <h1 className="area-dos-professores-text088">Ativo</h1>
+              <h1 className="area-dos-professores-text089">Escarlate Ado</h1>
+              <h1 className="area-dos-professores-text090">
+                <span>0</span>
+                <br></br>
+              </h1>
+            </div>
+            <div className="area-dos-professores-container17">
+              <h1 className="area-dos-professores-text093">GJ398GJ</h1>
+              <h1 className="area-dos-professores-text094">Ativo</h1>
+              <h1 className="area-dos-professores-text095">Flui Gonsales </h1>
+              <h1 className="area-dos-professores-text096">
+                <span>0</span>
+                <br></br>
+              </h1>
+            </div>
+            <div className="area-dos-professores-container18">
+              <h1 className="area-dos-professores-text099">M409GEW</h1>
+              <h1 className="area-dos-professores-text100">Ativo</h1>
+              <h1 className="area-dos-professores-text101">Ramon Yuri Pleno</h1>
+              <h1 className="area-dos-professores-text102">
+                <span>0</span>
+                <br></br>
+              </h1>
+            </div>
+            <div className="area-dos-professores-container19">
+              <h1 className="area-dos-professores-text105">QDK29J0</h1>
+              <h1 className="area-dos-professores-text106">Ativo</h1>
+              <h1 className="area-dos-professores-text107">Tuti Hybrid</h1>
+              <h1 className="area-dos-professores-text108">
+                <span>0</span>
+                <br></br>
+              </h1>
+            </div>
+            <div className="area-dos-professores-container20">
+              <h1 className="area-dos-professores-text111">G04K0G9</h1>
+              <h1 className="area-dos-professores-text112">Ativo</h1>
+              <h1 className="area-dos-professores-text113">Joaquim Moacir</h1>
+              <h1 className="area-dos-professores-text114">
+                <span>1</span>
+                <br></br>
+              </h1>
+            </div>
+            <div className="area-dos-professores-container21">
+              <h1 className="area-dos-professores-text117">2J98FWW</h1>
+              <h1 className="area-dos-professores-text118">Ativo</h1>
+              <h1 className="area-dos-professores-text119">
+                Leyla Gomes Junes
+              </h1>
+              <h1 className="area-dos-professores-text120">
+                <span>0</span>
+                <br></br>
+              </h1>
+            </div>
+            <div className="area-dos-professores-container22">
+              <h1 className="area-dos-professores-text123">F3J0J03</h1>
+              <h1 className="area-dos-professores-text124">Inativo</h1>
+              <h1 className="area-dos-professores-text125">Yambev Troia Doc</h1>
+              <h1 className="area-dos-professores-text126">
+                <span>0</span>
+                <br></br>
+              </h1>
+            </div>
+            <div className="area-dos-professores-container23">
+              <h1 className="area-dos-professores-text129">FHJ9W8H</h1>
+              <h1 className="area-dos-professores-text130">Ativo</h1>
+              <h1 className="area-dos-professores-text131">
+                Gabriel Gonçalves Roi
+              </h1>
+              <h1 className="area-dos-professores-text132">
+                <span>3</span>
+                <br></br>
+              </h1>
+            </div>
+            <div className="area-dos-professores-container24">
+              <h1 className="area-dos-professores-text135">FEJK09J</h1>
+              <h1 className="area-dos-professores-text136">Ativo</h1>
+              <h1 className="area-dos-professores-text137">
+                Youtu Berda Silva
+              </h1>
+              <h1 className="area-dos-professores-text138">
+                <span>2</span>
+                <br></br>
+              </h1>
+            </div>
+            <div className="area-dos-professores-container25">
+              <h1 className="area-dos-professores-text141">MJ7J809</h1>
+              <h1 className="area-dos-professores-text142">Ativo</h1>
+              <h1 className="area-dos-professores-text143">Barsa Gonsalo</h1>
+              <h1 className="area-dos-professores-text144">
+                <span>0</span>
+                <br></br>
+              </h1>
+            </div>
+            <div className="area-dos-professores-container26">
+              <h1 className="area-dos-professores-text147">K0U67HJ</h1>
+              <h1 className="area-dos-professores-text148">Ativo</h1>
+              <h1 className="area-dos-professores-text149">
+                Ramon Morales de Souza
+              </h1>
+              <h1 className="area-dos-professores-text150">
+                <span>0</span>
+                <br></br>
+              </h1>
             </div>
           </div>
         </div>
@@ -182,7 +398,7 @@ const AreaDosProfessores = (props) => {
             object-fit: cover;
             object-position: left;
           }
-          .area-dos-professores-container1 {
+          .area-dos-professores-container01 {
             flex: 0 0 auto;
             display: flex;
             align-items: center;
@@ -195,6 +411,9 @@ const AreaDosProfessores = (props) => {
             align-items: center;
             flex-direction: row;
             justify-content: flex-start;
+          }
+          .area-dos-professores-text001 {
+            color: var(--dl-color-primary-300);
           }
           .area-dos-professores-burger-menu {
             display: none;
@@ -222,7 +441,7 @@ const AreaDosProfessores = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .area-dos-professores-container2 {
+          .area-dos-professores-container02 {
             width: 100%;
             display: flex;
             align-items: center;
@@ -255,7 +474,7 @@ const AreaDosProfessores = (props) => {
             width: var(--dl-size-size-xsmall);
             height: var(--dl-size-size-xsmall);
           }
-          .area-dos-professores-container3 {
+          .area-dos-professores-container03 {
             width: 100%;
             height: 100%;
             display: flex;
@@ -264,11 +483,10 @@ const AreaDosProfessores = (props) => {
             justify-content: flex-start;
           }
           .area-dos-professores-sidebar {
-            width: 15%;
+            width: 300px;
             height: 100vh;
             display: flex;
             padding: var(--dl-space-space-twounits);
-            min-width: 300px;
             align-items: flex-start;
             flex-direction: column;
             justify-content: space-between;
@@ -284,7 +502,7 @@ const AreaDosProfessores = (props) => {
             display: flex;
             flex-direction: column;
           }
-          .area-dos-professores-text03 {
+          .area-dos-professores-text003 {
             font-family: Roboto Mono;
             font-weight: 600;
             margin-bottom: var(--dl-space-space-unit);
@@ -296,17 +514,18 @@ const AreaDosProfessores = (props) => {
             margin-left: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .area-dos-professores-text04 {
+          .area-dos-professores-text004 {
+            color: var(--dl-color-primary-300);
             font-style: normal;
             font-family: Roboto Mono;
             font-weight: 400;
           }
-          .area-dos-professores-text07 {
+          .area-dos-professores-text007 {
             font-style: normal;
             font-family: Roboto Mono;
             font-weight: 400;
           }
-          .area-dos-professores-text10 {
+          .area-dos-professores-text010 {
             font-style: normal;
             font-family: Roboto Mono;
             font-weight: 400;
@@ -315,7 +534,7 @@ const AreaDosProfessores = (props) => {
             display: flex;
             flex-direction: column;
           }
-          .area-dos-professores-text13 {
+          .area-dos-professores-text013 {
             font-family: Roboto Mono;
             font-weight: 600;
             margin-bottom: var(--dl-space-space-unit);
@@ -327,22 +546,23 @@ const AreaDosProfessores = (props) => {
             margin-left: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .area-dos-professores-text14 {
+          .area-dos-professores-text014 {
+            color: var(--dl-color-primary-300);
             font-style: normal;
             font-family: Roboto Mono;
             font-weight: 400;
           }
-          .area-dos-professores-text15 {
+          .area-dos-professores-text015 {
             font-style: normal;
             font-family: Roboto Mono;
             font-weight: 400;
           }
-          .area-dos-professores-text16 {
+          .area-dos-professores-text016 {
             font-style: normal;
             font-family: Roboto Mono;
             font-weight: 400;
           }
-          .area-dos-professores-text17 {
+          .area-dos-professores-text017 {
             font-style: normal;
             font-family: Roboto Mono;
             font-weight: 400;
@@ -351,7 +571,7 @@ const AreaDosProfessores = (props) => {
             display: flex;
             flex-direction: column;
           }
-          .area-dos-professores-text18 {
+          .area-dos-professores-text018 {
             font-family: Roboto Mono;
             font-weight: 600;
             margin-bottom: var(--dl-space-space-unit);
@@ -363,23 +583,62 @@ const AreaDosProfessores = (props) => {
             margin-left: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .area-dos-professores-text21 {
+          .area-dos-professores-text021 {
+            color: var(--dl-color-primary-300);
             font-style: normal;
             text-align: left;
             font-family: Roboto Mono;
             font-weight: 400;
           }
-          .area-dos-professores-text22 {
+          .area-dos-professores-text022 {
             font-style: normal;
             font-family: Roboto Mono;
             font-weight: 400;
           }
-          .area-dos-professores-text23 {
+          .area-dos-professores-text023 {
             font-style: normal;
             font-family: Roboto Mono;
             font-weight: 400;
           }
-          .area-dos-professores-text24 {
+          .area-dos-professores-text024 {
+            font-style: normal;
+            font-family: Roboto Mono;
+            font-weight: 400;
+          }
+          .area-dos-professores-nav-item3 {
+            display: flex;
+            flex-direction: column;
+          }
+          .area-dos-professores-text025 {
+            font-family: Roboto Mono;
+            font-weight: 600;
+            margin-bottom: var(--dl-space-space-unit);
+            text-transform: uppercase;
+          }
+          .area-dos-professores-options3 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            margin-left: var(--dl-space-space-unit);
+            flex-direction: column;
+          }
+          .area-dos-professores-text028 {
+            color: var(--dl-color-primary-300);
+            font-style: normal;
+            text-align: left;
+            font-family: Roboto Mono;
+            font-weight: 400;
+          }
+          .area-dos-professores-text029 {
+            font-style: normal;
+            font-family: Roboto Mono;
+            font-weight: 400;
+          }
+          .area-dos-professores-text030 {
+            font-style: normal;
+            font-family: Roboto Mono;
+            font-weight: 400;
+          }
+          .area-dos-professores-text031 {
             font-style: normal;
             font-family: Roboto Mono;
             font-weight: 400;
@@ -398,7 +657,7 @@ const AreaDosProfessores = (props) => {
             border-right-width: 0px;
             border-bottom-width: 0px;
           }
-          .area-dos-professores-container4 {
+          .area-dos-professores-container04 {
             display: flex;
             align-items: center;
             flex-direction: row;
@@ -410,62 +669,906 @@ const AreaDosProfessores = (props) => {
             object-fit: cover;
             border-radius: var(--dl-radius-radius-round);
           }
-          .area-dos-professores-container5 {
+          .area-dos-professores-container05 {
             display: flex;
             align-items: flex-start;
             margin-left: var(--dl-space-space-halfunit);
             flex-direction: column;
             justify-content: space-between;
           }
-          .area-dos-professores-text25 {
+          .area-dos-professores-text032 {
             font-size: 1.15rem;
             font-style: normal;
             font-weight: 600;
             margin-bottom: 0.25rem;
           }
-          .area-dos-professores-text26 {
+          .area-dos-professores-text033 {
             color: var(--dl-color-gray-500);
             font-size: 0.75rem;
           }
-          .area-dos-professores-text27 {
+          .area-dos-professores-text034 {
             padding-left: var(--dl-space-space-halfunit);
             padding-right: var(--dl-space-space-halfunit);
             letter-spacing: 2px;
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .area-dos-professores-container6 {
+          .area-dos-professores-container06 {
             flex: 0 0 auto;
-            width: 85%;
+            width: 75%;
             height: 100%;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: flex-start;
           }
-          .area-dos-professores-container7 {
+          .area-dos-professores-container07 {
             gap: var(--dl-space-space-twounits);
             flex: 0 0 auto;
             height: 50px;
             display: flex;
+            align-self: stretch;
             align-items: center;
-            margin-left: var(--dl-space-space-unit);
             justify-content: flex-start;
           }
-          .area-dos-professores-text28 {
+          .area-dos-professores-text035 {
+            font-size: 1rem;
+            font-style: normal;
+            font-family: Roboto Mono;
+            font-weight: 600;
+            margin-left: var(--dl-space-space-twounits);
+          }
+          .area-dos-professores-text036 {
             font-size: 1rem;
             font-style: normal;
             font-family: Roboto Mono;
             font-weight: 600;
           }
-          .area-dos-professores-text29 {
+          .area-dos-professores-text037 {
             font-size: 1rem;
             font-style: normal;
             font-family: Roboto Mono;
             font-weight: 600;
           }
-          .area-dos-professores-text30 {
+          .area-dos-professores-text038 {
             font-size: 1rem;
             font-style: normal;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-container08 {
+            gap: var(--dl-space-space-twounits);
+            flex: 0 0 auto;
+            height: 50px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            justify-content: flex-start;
+            background-color: var(--dl-color-gray-500);
+          }
+          .area-dos-professores-text039 {
+            color: var(--dl-color-gray-white);
+            width: 80px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text040 {
+            color: var(--dl-color-gray-white);
+            width: 120px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text041 {
+            color: var(--dl-color-gray-white);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text042 {
+            color: var(--dl-color-gray-white);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-container09 {
+            gap: var(--dl-space-space-twounits);
+            flex: 0 0 auto;
+            height: 50px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .area-dos-professores-text045 {
+            color: var(--dl-color-gray-black);
+            width: 80px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text046 {
+            color: var(--dl-color-gray-black);
+            width: 120px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text047 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text048 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-container10 {
+            gap: var(--dl-space-space-twounits);
+            flex: 0 0 auto;
+            height: 50px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .area-dos-professores-text051 {
+            color: var(--dl-color-gray-black);
+            width: 80px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text052 {
+            color: var(--dl-color-gray-black);
+            width: 120px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text053 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text054 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-container11 {
+            gap: var(--dl-space-space-twounits);
+            flex: 0 0 auto;
+            height: 50px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .area-dos-professores-text057 {
+            color: var(--dl-color-gray-black);
+            width: 80px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text058 {
+            color: var(--dl-color-gray-black);
+            width: 120px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text059 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text060 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-container12 {
+            gap: var(--dl-space-space-twounits);
+            flex: 0 0 auto;
+            height: 50px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .area-dos-professores-text063 {
+            color: var(--dl-color-gray-black);
+            width: 80px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text064 {
+            color: var(--dl-color-gray-black);
+            width: 120px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text065 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text066 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-container13 {
+            gap: var(--dl-space-space-twounits);
+            flex: 0 0 auto;
+            height: 50px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .area-dos-professores-text069 {
+            color: var(--dl-color-gray-black);
+            width: 80px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text070 {
+            color: var(--dl-color-gray-black);
+            width: 120px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text071 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text072 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-container14 {
+            gap: var(--dl-space-space-twounits);
+            flex: 0 0 auto;
+            height: 50px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .area-dos-professores-text075 {
+            color: var(--dl-color-gray-black);
+            width: 80px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text076 {
+            color: var(--dl-color-gray-black);
+            width: 120px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text077 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text078 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-container15 {
+            gap: var(--dl-space-space-twounits);
+            flex: 0 0 auto;
+            height: 50px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .area-dos-professores-text081 {
+            color: var(--dl-color-gray-black);
+            width: 80px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text082 {
+            color: var(--dl-color-gray-black);
+            width: 120px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text083 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text084 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-container16 {
+            gap: var(--dl-space-space-twounits);
+            flex: 0 0 auto;
+            height: 50px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .area-dos-professores-text087 {
+            color: var(--dl-color-gray-black);
+            width: 80px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text088 {
+            color: var(--dl-color-gray-black);
+            width: 120px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text089 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text090 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-container17 {
+            gap: var(--dl-space-space-twounits);
+            flex: 0 0 auto;
+            height: 50px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .area-dos-professores-text093 {
+            color: var(--dl-color-gray-black);
+            width: 80px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text094 {
+            color: var(--dl-color-gray-black);
+            width: 120px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text095 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text096 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-container18 {
+            gap: var(--dl-space-space-twounits);
+            flex: 0 0 auto;
+            height: 50px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .area-dos-professores-text099 {
+            color: var(--dl-color-gray-black);
+            width: 80px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text100 {
+            color: var(--dl-color-gray-black);
+            width: 120px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text101 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text102 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-container19 {
+            gap: var(--dl-space-space-twounits);
+            flex: 0 0 auto;
+            height: 50px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .area-dos-professores-text105 {
+            color: var(--dl-color-gray-black);
+            width: 80px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text106 {
+            color: var(--dl-color-gray-black);
+            width: 120px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text107 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text108 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-container20 {
+            gap: var(--dl-space-space-twounits);
+            flex: 0 0 auto;
+            height: 50px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .area-dos-professores-text111 {
+            color: var(--dl-color-gray-black);
+            width: 80px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text112 {
+            color: var(--dl-color-gray-black);
+            width: 120px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text113 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text114 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-container21 {
+            gap: var(--dl-space-space-twounits);
+            flex: 0 0 auto;
+            height: 50px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .area-dos-professores-text117 {
+            color: var(--dl-color-gray-black);
+            width: 80px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text118 {
+            color: var(--dl-color-gray-black);
+            width: 120px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text119 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text120 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-container22 {
+            gap: var(--dl-space-space-twounits);
+            flex: 0 0 auto;
+            height: 50px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .area-dos-professores-text123 {
+            color: var(--dl-color-gray-black);
+            width: 80px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text124 {
+            color: var(--dl-color-gray-black);
+            width: 120px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text125 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text126 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-container23 {
+            gap: var(--dl-space-space-twounits);
+            flex: 0 0 auto;
+            height: 50px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .area-dos-professores-text129 {
+            color: var(--dl-color-gray-black);
+            width: 80px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text130 {
+            color: var(--dl-color-gray-black);
+            width: 120px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text131 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text132 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-container24 {
+            gap: var(--dl-space-space-twounits);
+            flex: 0 0 auto;
+            height: 50px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .area-dos-professores-text135 {
+            color: var(--dl-color-gray-black);
+            width: 80px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text136 {
+            color: var(--dl-color-gray-black);
+            width: 120px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text137 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text138 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-container25 {
+            gap: var(--dl-space-space-twounits);
+            flex: 0 0 auto;
+            height: 50px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .area-dos-professores-text141 {
+            color: var(--dl-color-gray-black);
+            width: 80px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text142 {
+            color: var(--dl-color-gray-black);
+            width: 120px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text143 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text144 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-container26 {
+            gap: var(--dl-space-space-twounits);
+            flex: 0 0 auto;
+            height: 50px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .area-dos-professores-text147 {
+            color: var(--dl-color-gray-black);
+            width: 80px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text148 {
+            color: var(--dl-color-gray-black);
+            width: 120px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text149 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .area-dos-professores-text150 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
             font-family: Roboto Mono;
             font-weight: 600;
           }
@@ -473,8 +1576,8 @@ const AreaDosProfessores = (props) => {
             .area-dos-professores-icon {
               display: flex;
             }
-            .area-dos-professores-container3 {
-              justify-content: space-between;
+            .area-dos-professores-container03 {
+              justify-content: flex-start;
             }
             .area-dos-professores-profile {
               padding-left: var(--dl-space-space-halfunit);
@@ -482,6 +1585,9 @@ const AreaDosProfessores = (props) => {
             }
             .area-dos-professores-image2 {
               margin-left: 0px;
+            }
+            .area-dos-professores-container06 {
+              width: auto;
             }
           }
           @media (max-width: 767px) {
@@ -497,10 +1603,10 @@ const AreaDosProfessores = (props) => {
             .area-dos-professores-text {
               margin-bottom: var(--dl-space-space-unit);
             }
-            .area-dos-professores-text01 {
+            .area-dos-professores-text001 {
               margin-bottom: var(--dl-space-space-unit);
             }
-            .area-dos-professores-text02 {
+            .area-dos-professores-text002 {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
@@ -508,10 +1614,6 @@ const AreaDosProfessores = (props) => {
               display: flex;
               align-items: center;
               justify-content: center;
-            }
-            .area-dos-professores-sidebar {
-              width: 12%;
-              min-width: 270px;
             }
           }
           @media (max-width: 479px) {
