@@ -26,40 +26,27 @@ const NavFinanceiro = (props) => {
               )}
               {!isCriacoes && (
                 <button className="nav-financeiro-button2 button">
-                  Criações
+                  Configurações
                 </button>
               )}
               {isCriacoes && (
                 <button className="nav-financeiro-button3 button">
-                  Criações
+                  Configurações
                 </button>
               )}
               {!isParceiros && (
                 <button className="nav-financeiro-button4 button">
-                  Parceiros
+                  Setores
                 </button>
               )}
               {isParceiros && (
                 <button className="nav-financeiro-button5 button">
                   <span>
-                    <span>Parceiros</span>
+                    <span>Setores</span>
                     <br></br>
                   </span>
                 </button>
               )}
-            </nav>
-            <nav className="nav-financeiro-nav1">
-              <span>
-                <span>
-                  Saldo:
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="nav-financeiro-text004">R$ 0</span>
-              </span>
             </nav>
           </div>
           <div data-role="BurgerMenu" className="nav-financeiro-burger-menu">
@@ -68,7 +55,7 @@ const NavFinanceiro = (props) => {
             </svg>
           </div>
           <div data-role="MobileMenu" className="nav-financeiro-mobile-menu">
-            <nav className="nav-financeiro-nav2">
+            <nav className="nav-financeiro-nav1">
               <div className="nav-financeiro-container02">
                 <img
                   alt="image"
@@ -115,58 +102,58 @@ const NavFinanceiro = (props) => {
           <div className="nav-financeiro-dashboard">
             <div className="nav-financeiro-container03">
               <div className="nav-financeiro-container04">
-                <h1 className="nav-financeiro-text005">
+                <h1 className="nav-financeiro-text003">
                   <span>NOVOS ALUNOS</span>
                   <br></br>
                 </h1>
                 <div className="nav-financeiro-container05">
-                  <h1 className="nav-financeiro-text008">
-                    <span className="nav-financeiro-text009">+5 </span>
-                    <span className="nav-financeiro-text010">%</span>
-                    <br className="nav-financeiro-text011"></br>
+                  <h1 className="nav-financeiro-text006">
+                    <span className="nav-financeiro-text007">+5 </span>
+                    <span className="nav-financeiro-text008">%</span>
+                    <br className="nav-financeiro-text009"></br>
                   </h1>
                 </div>
               </div>
               <div className="nav-financeiro-container06">
-                <h1 className="nav-financeiro-text012">
+                <h1 className="nav-financeiro-text010">
                   <span>Despesas TOTAL</span>
                   <br></br>
                 </h1>
                 <div className="nav-financeiro-container07">
-                  <h1 className="nav-financeiro-text015">
-                    <span className="nav-financeiro-text016">-2 </span>
-                    <span className="nav-financeiro-text017">%</span>
-                    <br className="nav-financeiro-text018"></br>
+                  <h1 className="nav-financeiro-text013">
+                    <span className="nav-financeiro-text014">-2 </span>
+                    <span className="nav-financeiro-text015">%</span>
+                    <br className="nav-financeiro-text016"></br>
                   </h1>
                 </div>
               </div>
               <div className="nav-financeiro-container08">
-                <h1 className="nav-financeiro-text019">
+                <h1 className="nav-financeiro-text017">
                   <span>Valor da Companhia</span>
                   <br></br>
                 </h1>
                 <div className="nav-financeiro-container09">
-                  <h1 className="nav-financeiro-text022">
-                    <span className="nav-financeiro-text023">BRL</span>
-                    <span className="nav-financeiro-text024">
+                  <h1 className="nav-financeiro-text020">
+                    <span className="nav-financeiro-text021">BRL</span>
+                    <span className="nav-financeiro-text022">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: ' ',
                         }}
                       />
                     </span>
-                    <span className="nav-financeiro-text025">58.39M</span>
+                    <span className="nav-financeiro-text023">60.39M</span>
                   </h1>
                 </div>
               </div>
               <div className="nav-financeiro-container10">
-                <h1 className="nav-financeiro-text026">
+                <h1 className="nav-financeiro-text024">
                   <span>NOVOS COLABORADRES</span>
                   <br></br>
                 </h1>
                 <div className="nav-financeiro-container11">
-                  <h1 className="nav-financeiro-text029">
-                    <span className="nav-financeiro-text030">+6 </span>
+                  <h1 className="nav-financeiro-text027">
+                    <span className="nav-financeiro-text028">+6 </span>
                     <br></br>
                   </h1>
                 </div>
@@ -179,66 +166,66 @@ const NavFinanceiro = (props) => {
             />
             <div className="nav-financeiro-container12">
               <div className="nav-financeiro-container13">
-                <h1 className="nav-financeiro-text032">
+                <h1 className="nav-financeiro-text030">
                   <span>Entrada</span>
                   <br></br>
                 </h1>
                 <div className="nav-financeiro-container14">
-                  <h1 className="nav-financeiro-text035">
-                    <span className="nav-financeiro-text036">BRL </span>
-                    <span className="nav-financeiro-text037">8.7M</span>
-                    <br className="nav-financeiro-text038"></br>
+                  <h1 className="nav-financeiro-text033">
+                    <span className="nav-financeiro-text034">BRL </span>
+                    <span className="nav-financeiro-text035">8.7M</span>
+                    <br className="nav-financeiro-text036"></br>
                   </h1>
                 </div>
               </div>
               <div className="nav-financeiro-container15">
-                <h1 className="nav-financeiro-text039">
+                <h1 className="nav-financeiro-text037">
                   <span>Despesas</span>
                   <br></br>
                 </h1>
                 <div className="nav-financeiro-container16">
-                  <h1 className="nav-financeiro-text042">
-                    <span className="nav-financeiro-text043">BRL </span>
-                    <span className="nav-financeiro-text044">-8.1M</span>
-                    <br className="nav-financeiro-text045"></br>
+                  <h1 className="nav-financeiro-text040">
+                    <span className="nav-financeiro-text041">BRL </span>
+                    <span className="nav-financeiro-text042">8.1M</span>
+                    <br className="nav-financeiro-text043"></br>
                   </h1>
                 </div>
               </div>
               <div className="nav-financeiro-container17">
-                <h1 className="nav-financeiro-text046">
+                <h1 className="nav-financeiro-text044">
                   <span>Gastos</span>
                   <br></br>
                 </h1>
                 <div className="nav-financeiro-container18">
-                  <h1 className="nav-financeiro-text049">
-                    <span className="nav-financeiro-text050">BRL</span>
-                    <span className="nav-financeiro-text051">
+                  <h1 className="nav-financeiro-text047">
+                    <span className="nav-financeiro-text048">BRL</span>
+                    <span className="nav-financeiro-text049">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: ' ',
                         }}
                       />
                     </span>
-                    <span className="nav-financeiro-text052">310.2K</span>
+                    <span className="nav-financeiro-text050">310.2K</span>
                   </h1>
                 </div>
               </div>
               <div className="nav-financeiro-container19">
-                <h1 className="nav-financeiro-text053">
+                <h1 className="nav-financeiro-text051">
                   <span>Total</span>
                   <br></br>
                 </h1>
                 <div className="nav-financeiro-container20">
-                  <h1 className="nav-financeiro-text056">
-                    <span className="nav-financeiro-text057">BRL</span>
-                    <span className="nav-financeiro-text058">
+                  <h1 className="nav-financeiro-text054">
+                    <span className="nav-financeiro-text055">BRL</span>
+                    <span className="nav-financeiro-text056">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: ' ',
                         }}
                       />
                     </span>
-                    <span className="nav-financeiro-text059">405.5K</span>
+                    <span className="nav-financeiro-text057">405.5K</span>
                   </h1>
                 </div>
               </div>
@@ -247,24 +234,24 @@ const NavFinanceiro = (props) => {
         )}
         {isCriacoes && (
           <div className="nav-financeiro-container21">
-            <h1 className="nav-financeiro-text060">Nome: Rui Alencar Urich</h1>
-            <h1 className="nav-financeiro-text061">RA: F982H89</h1>
-            <h1 className="nav-financeiro-text062">Curso: Bioquímica</h1>
-            <h1 className="nav-financeiro-text063">Turno: Manhã</h1>
+            <h1 className="nav-financeiro-text058">Nome: Rui Alencar Urich</h1>
+            <h1 className="nav-financeiro-text059">RA: F982H89</h1>
+            <h1 className="nav-financeiro-text060">Curso: Bioquímica</h1>
+            <h1 className="nav-financeiro-text061">Turno: Manhã</h1>
           </div>
         )}
         {isCriacoes && (
           <div className="nav-financeiro-container22">
-            <h1 className="nav-financeiro-text064">Matéria</h1>
+            <h1 className="nav-financeiro-text062">Matéria</h1>
             {isParceiros && (
-              <h1 className="nav-financeiro-text065">
+              <h1 className="nav-financeiro-text063">
                 <span>Razão Social</span>
                 <br></br>
               </h1>
             )}
-            <h1 className="nav-financeiro-text068">Atualizações</h1>
-            <h1 className="nav-financeiro-text069">Atualizações</h1>
-            <h1 className="nav-financeiro-text070">
+            <h1 className="nav-financeiro-text066">Atualizações</h1>
+            <h1 className="nav-financeiro-text067">Atualizações</h1>
+            <h1 className="nav-financeiro-text068">
               <span>Lançamento</span>
               <br></br>
             </h1>
@@ -273,50 +260,50 @@ const NavFinanceiro = (props) => {
         {isCriacoes && (
           <div className="nav-financeiro-container23">
             <div className="nav-financeiro-container24">
-              <h1 className="nav-financeiro-text073">Biodiversidade</h1>
-              <h1 className="nav-financeiro-text074">Atividade</h1>
-              <h1 className="nav-financeiro-text075">
+              <h1 className="nav-financeiro-text071">Biodiversidade</h1>
+              <h1 className="nav-financeiro-text072">Atividade</h1>
+              <h1 className="nav-financeiro-text073">
                 Atividade 01 - Diversidade
               </h1>
-              <h1 className="nav-financeiro-text076">
+              <h1 className="nav-financeiro-text074">
                 <span>09/03/2023</span>
                 <br></br>
               </h1>
             </div>
             <div className="nav-financeiro-container25">
-              <h1 className="nav-financeiro-text079">Biodiversidade</h1>
-              <h1 className="nav-financeiro-text080">Material</h1>
-              <h1 className="nav-financeiro-text081">
+              <h1 className="nav-financeiro-text077">Biodiversidade</h1>
+              <h1 className="nav-financeiro-text078">Material</h1>
+              <h1 className="nav-financeiro-text079">
                 Material 01 - Animais diversos
               </h1>
-              <h1 className="nav-financeiro-text082">09/03/2023</h1>
+              <h1 className="nav-financeiro-text080">09/03/2023</h1>
             </div>
             <div className="nav-financeiro-container26">
-              <h1 className="nav-financeiro-text083">Laboratório</h1>
-              <h1 className="nav-financeiro-text084">Material</h1>
-              <h1 className="nav-financeiro-text085">
+              <h1 className="nav-financeiro-text081">Laboratório</h1>
+              <h1 className="nav-financeiro-text082">Material</h1>
+              <h1 className="nav-financeiro-text083">
                 Mat 01 - Química Aplicada
               </h1>
-              <h1 className="nav-financeiro-text086">08/03/2023</h1>
+              <h1 className="nav-financeiro-text084">08/03/2023</h1>
             </div>
             <div className="nav-financeiro-container27">
-              <h1 className="nav-financeiro-text087">Química</h1>
-              <h1 className="nav-financeiro-text088">Material</h1>
-              <h1 className="nav-financeiro-text089">
+              <h1 className="nav-financeiro-text085">Química</h1>
+              <h1 className="nav-financeiro-text086">Material</h1>
+              <h1 className="nav-financeiro-text087">
                 Mat 01 - A matéria [INTRODUÇÃO]
               </h1>
-              <h1 className="nav-financeiro-text090">
+              <h1 className="nav-financeiro-text088">
                 <span>07/03/2023</span>
                 <br></br>
               </h1>
             </div>
             <div className="nav-financeiro-container28">
-              <h1 className="nav-financeiro-text093">Informática</h1>
-              <h1 className="nav-financeiro-text094">Material</h1>
-              <h1 className="nav-financeiro-text095">
+              <h1 className="nav-financeiro-text091">Informática</h1>
+              <h1 className="nav-financeiro-text092">Material</h1>
+              <h1 className="nav-financeiro-text093">
                 Mat 01 - Introdução ao quimic
               </h1>
-              <h1 className="nav-financeiro-text096">
+              <h1 className="nav-financeiro-text094">
                 <span>06/03/2023</span>
                 <br></br>
               </h1>
@@ -326,36 +313,36 @@ const NavFinanceiro = (props) => {
         {isParceiros && (
           <div className="nav-financeiro-container29">
             <div className="nav-financeiro-container30">
-              <h1 className="nav-financeiro-text099">Aquário autônomo</h1>
-              <h1 className="nav-financeiro-text100">
+              <h1 className="nav-financeiro-text097">Aquário autônomo</h1>
+              <h1 className="nav-financeiro-text098">
                 1.0.2 - Bomba econômica
               </h1>
-              <h1 className="nav-financeiro-text101">
+              <h1 className="nav-financeiro-text099">
                 <span>09/05/2023</span>
                 <br></br>
               </h1>
-              <h1 className="nav-financeiro-text104">
+              <h1 className="nav-financeiro-text102">
                 <span>Ver mais</span>
                 <br></br>
               </h1>
             </div>
             <div className="nav-financeiro-container31">
-              <h1 className="nav-financeiro-text107">
+              <h1 className="nav-financeiro-text105">
                 Aquário Marinho autônomo
               </h1>
-              <h1 className="nav-financeiro-text108">
+              <h1 className="nav-financeiro-text106">
                 1.0.4 - Bomba econômica
               </h1>
-              <h1 className="nav-financeiro-text109">15/03/2023</h1>
-              <h1 className="nav-financeiro-text110">Ver mais</h1>
+              <h1 className="nav-financeiro-text107">15/03/2023</h1>
+              <h1 className="nav-financeiro-text108">Ver mais</h1>
             </div>
             <div className="nav-financeiro-container32">
-              <h1 className="nav-financeiro-text111">Biocarro</h1>
-              <h1 className="nav-financeiro-text112">
+              <h1 className="nav-financeiro-text109">Biocarro</h1>
+              <h1 className="nav-financeiro-text110">
                 0.4 - Pneu de Alga processada
               </h1>
-              <h1 className="nav-financeiro-text113">08/09/2023</h1>
-              <h1 className="nav-financeiro-text114">Ver mais</h1>
+              <h1 className="nav-financeiro-text111">08/09/2023</h1>
+              <h1 className="nav-financeiro-text112">Ver mais</h1>
             </div>
           </div>
         )}
@@ -402,9 +389,11 @@ const NavFinanceiro = (props) => {
           }
           .nav-financeiro-button {
             color: var(--dl-color-primary-300);
-            padding: var(--dl-space-space-unit);
+            padding-top: var(--dl-space-space-unit);
             border-width: 0px;
-            padding-left: 16px;
+            padding-left: var(--dl-space-space-unit);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-unit);
             background-color: transparent;
           }
           .nav-financeiro-button1 {
@@ -429,6 +418,7 @@ const NavFinanceiro = (props) => {
             padding: var(--dl-space-space-unit);
             border-width: 0px;
             padding-left: 16px;
+            padding-right: 16px;
             padding-bottom: 16px;
             background-color: transparent;
           }
@@ -437,18 +427,6 @@ const NavFinanceiro = (props) => {
             padding: var(--dl-space-space-unit);
             border-width: 0px;
             background-color: transparent;
-          }
-          .nav-financeiro-nav1 {
-            gap: var(--dl-space-space-twounits);
-            flex: 0 0 auto;
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .nav-financeiro-text004 {
-            font-style: normal;
-            font-weight: 700;
           }
           .nav-financeiro-burger-menu {
             display: none;
@@ -471,7 +449,7 @@ const NavFinanceiro = (props) => {
             justify-content: space-between;
             background-color: #fff;
           }
-          .nav-financeiro-nav2 {
+          .nav-financeiro-nav1 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
@@ -539,7 +517,7 @@ const NavFinanceiro = (props) => {
             justify-content: flex-start;
             background-color: var(--dl-color-gray-white);
           }
-          .nav-financeiro-text005 {
+          .nav-financeiro-text003 {
             color: var(--dl-color-gray-700);
             font-size: 0.875rem;
             font-style: normal;
@@ -553,22 +531,22 @@ const NavFinanceiro = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .nav-financeiro-text008 {
+          .nav-financeiro-text006 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-family: Noto Sans;
             font-weight: 700;
           }
-          .nav-financeiro-text009 {
+          .nav-financeiro-text007 {
             color: #444444;
             font-style: normal;
           }
-          .nav-financeiro-text010 {
+          .nav-financeiro-text008 {
             color: var(--dl-color-gray-700);
             font-size: 1.25rem;
             font-weight: 400;
           }
-          .nav-financeiro-text011 {
+          .nav-financeiro-text009 {
             font-style: normal;
           }
           .nav-financeiro-container06 {
@@ -584,7 +562,7 @@ const NavFinanceiro = (props) => {
             justify-content: flex-start;
             background-color: var(--dl-color-gray-white);
           }
-          .nav-financeiro-text012 {
+          .nav-financeiro-text010 {
             color: var(--dl-color-gray-700);
             font-size: 0.875rem;
             font-style: normal;
@@ -599,22 +577,22 @@ const NavFinanceiro = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .nav-financeiro-text015 {
+          .nav-financeiro-text013 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-family: Noto Sans;
             font-weight: 700;
           }
-          .nav-financeiro-text016 {
+          .nav-financeiro-text014 {
             color: #444444;
             font-style: normal;
           }
-          .nav-financeiro-text017 {
+          .nav-financeiro-text015 {
             color: var(--dl-color-gray-700);
             font-size: 1.25rem;
             font-weight: 400;
           }
-          .nav-financeiro-text018 {
+          .nav-financeiro-text016 {
             font-style: normal;
           }
           .nav-financeiro-container08 {
@@ -630,7 +608,7 @@ const NavFinanceiro = (props) => {
             justify-content: flex-start;
             background-color: var(--dl-color-gray-white);
           }
-          .nav-financeiro-text019 {
+          .nav-financeiro-text017 {
             color: var(--dl-color-gray-700);
             font-size: 0.875rem;
             font-style: normal;
@@ -645,23 +623,23 @@ const NavFinanceiro = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .nav-financeiro-text022 {
+          .nav-financeiro-text020 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-family: Noto Sans;
             font-weight: 700;
           }
-          .nav-financeiro-text023 {
+          .nav-financeiro-text021 {
             color: var(--dl-color-gray-700);
             font-size: 1.25rem;
             font-style: normal;
             font-weight: 400;
           }
-          .nav-financeiro-text024 {
+          .nav-financeiro-text022 {
             color: var(--dl-color-gray-700);
             font-size: 1.25rem;
           }
-          .nav-financeiro-text025 {
+          .nav-financeiro-text023 {
             color: var(--dl-color-gray-500);
           }
           .nav-financeiro-container10 {
@@ -677,7 +655,7 @@ const NavFinanceiro = (props) => {
             justify-content: flex-start;
             background-color: var(--dl-color-gray-white);
           }
-          .nav-financeiro-text026 {
+          .nav-financeiro-text024 {
             color: var(--dl-color-gray-700);
             font-size: 0.875rem;
             font-style: normal;
@@ -691,14 +669,14 @@ const NavFinanceiro = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .nav-financeiro-text029 {
+          .nav-financeiro-text027 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-style: normal;
             font-family: Noto Sans;
             font-weight: 700;
           }
-          .nav-financeiro-text030 {
+          .nav-financeiro-text028 {
             color: #444444;
           }
           .nav-financeiro-pasted-image {
@@ -723,7 +701,7 @@ const NavFinanceiro = (props) => {
             justify-content: flex-start;
             background-color: var(--dl-color-gray-white);
           }
-          .nav-financeiro-text032 {
+          .nav-financeiro-text030 {
             color: var(--dl-color-gray-700);
             font-size: 0.875rem;
             font-style: normal;
@@ -738,21 +716,21 @@ const NavFinanceiro = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .nav-financeiro-text035 {
+          .nav-financeiro-text033 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-family: Noto Sans;
             font-weight: 700;
           }
-          .nav-financeiro-text036 {
+          .nav-financeiro-text034 {
             color: var(--dl-color-gray-700);
             font-size: 1.25rem;
             font-weight: 400;
           }
-          .nav-financeiro-text037 {
+          .nav-financeiro-text035 {
             color: var(--dl-color-gray-444);
           }
-          .nav-financeiro-text038 {
+          .nav-financeiro-text036 {
             font-style: normal;
           }
           .nav-financeiro-container15 {
@@ -768,7 +746,7 @@ const NavFinanceiro = (props) => {
             justify-content: flex-start;
             background-color: var(--dl-color-gray-white);
           }
-          .nav-financeiro-text039 {
+          .nav-financeiro-text037 {
             color: var(--dl-color-gray-700);
             font-size: 0.875rem;
             font-style: normal;
@@ -783,22 +761,22 @@ const NavFinanceiro = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .nav-financeiro-text042 {
+          .nav-financeiro-text040 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-family: Noto Sans;
             font-weight: 700;
           }
-          .nav-financeiro-text043 {
+          .nav-financeiro-text041 {
             color: var(--dl-color-gray-700);
             font-size: 1.25rem;
             font-weight: 400;
           }
-          .nav-financeiro-text044 {
+          .nav-financeiro-text042 {
             color: #444444;
             font-style: normal;
           }
-          .nav-financeiro-text045 {
+          .nav-financeiro-text043 {
             font-style: normal;
           }
           .nav-financeiro-container17 {
@@ -814,7 +792,7 @@ const NavFinanceiro = (props) => {
             justify-content: flex-start;
             background-color: var(--dl-color-gray-white);
           }
-          .nav-financeiro-text046 {
+          .nav-financeiro-text044 {
             color: var(--dl-color-gray-700);
             font-size: 0.875rem;
             font-style: normal;
@@ -829,23 +807,23 @@ const NavFinanceiro = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .nav-financeiro-text049 {
+          .nav-financeiro-text047 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-family: Noto Sans;
             font-weight: 700;
           }
-          .nav-financeiro-text050 {
+          .nav-financeiro-text048 {
             color: var(--dl-color-gray-700);
             font-size: 1.25rem;
             font-style: normal;
             font-weight: 400;
           }
-          .nav-financeiro-text051 {
+          .nav-financeiro-text049 {
             color: var(--dl-color-gray-700);
             font-size: 1.25rem;
           }
-          .nav-financeiro-text052 {
+          .nav-financeiro-text050 {
             color: var(--dl-color-gray-444);
           }
           .nav-financeiro-container19 {
@@ -861,7 +839,7 @@ const NavFinanceiro = (props) => {
             justify-content: flex-start;
             background-color: var(--dl-color-gray-white);
           }
-          .nav-financeiro-text053 {
+          .nav-financeiro-text051 {
             color: var(--dl-color-gray-700);
             font-size: 0.875rem;
             font-style: normal;
@@ -876,23 +854,23 @@ const NavFinanceiro = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .nav-financeiro-text056 {
+          .nav-financeiro-text054 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-family: Noto Sans;
             font-weight: 700;
           }
-          .nav-financeiro-text057 {
+          .nav-financeiro-text055 {
             color: var(--dl-color-gray-700);
             font-size: 1.25rem;
             font-style: normal;
             font-weight: 400;
           }
-          .nav-financeiro-text058 {
+          .nav-financeiro-text056 {
             color: var(--dl-color-gray-700);
             font-size: 1.25rem;
           }
-          .nav-financeiro-text059 {
+          .nav-financeiro-text057 {
             color: var(--dl-color-gray-444);
           }
           .nav-financeiro-container21 {
@@ -904,26 +882,26 @@ const NavFinanceiro = (props) => {
             align-items: center;
             justify-content: flex-start;
           }
-          .nav-financeiro-text060 {
+          .nav-financeiro-text058 {
             font-size: 1rem;
             font-style: normal;
             font-family: Roboto Mono;
             font-weight: 600;
             margin-left: var(--dl-space-space-twounits);
           }
+          .nav-financeiro-text059 {
+            font-size: 1rem;
+            font-style: normal;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text060 {
+            font-size: 1rem;
+            font-style: normal;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
           .nav-financeiro-text061 {
-            font-size: 1rem;
-            font-style: normal;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text062 {
-            font-size: 1rem;
-            font-style: normal;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text063 {
             font-size: 1rem;
             font-style: normal;
             font-family: Roboto Mono;
@@ -939,7 +917,7 @@ const NavFinanceiro = (props) => {
             justify-content: flex-start;
             background-color: var(--dl-color-gray-500);
           }
-          .nav-financeiro-text064 {
+          .nav-financeiro-text062 {
             color: var(--dl-color-gray-white);
             width: 170px;
             font-size: 1rem;
@@ -948,7 +926,25 @@ const NavFinanceiro = (props) => {
             font-family: Roboto Mono;
             font-weight: 600;
           }
-          .nav-financeiro-text065 {
+          .nav-financeiro-text063 {
+            color: var(--dl-color-gray-white);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text066 {
+            color: var(--dl-color-gray-white);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text067 {
             color: var(--dl-color-gray-white);
             width: 300px;
             font-size: 1rem;
@@ -958,24 +954,6 @@ const NavFinanceiro = (props) => {
             font-weight: 600;
           }
           .nav-financeiro-text068 {
-            color: var(--dl-color-gray-white);
-            width: 300px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: center;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text069 {
-            color: var(--dl-color-gray-white);
-            width: 300px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: center;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text070 {
             color: var(--dl-color-gray-white);
             font-size: 1rem;
             font-style: normal;
@@ -998,7 +976,7 @@ const NavFinanceiro = (props) => {
             align-items: center;
             justify-content: flex-start;
           }
-          .nav-financeiro-text073 {
+          .nav-financeiro-text071 {
             color: var(--dl-color-gray-black);
             width: 170px;
             font-size: 1rem;
@@ -1007,7 +985,7 @@ const NavFinanceiro = (props) => {
             font-family: Roboto Mono;
             font-weight: 600;
           }
-          .nav-financeiro-text074 {
+          .nav-financeiro-text072 {
             color: var(--dl-color-gray-black);
             width: 120px;
             font-size: 1rem;
@@ -1016,7 +994,7 @@ const NavFinanceiro = (props) => {
             font-family: Roboto Mono;
             font-weight: 600;
           }
-          .nav-financeiro-text075 {
+          .nav-financeiro-text073 {
             color: var(--dl-color-gray-black);
             width: 300px;
             font-size: 1rem;
@@ -1025,7 +1003,7 @@ const NavFinanceiro = (props) => {
             font-family: Roboto Mono;
             font-weight: 600;
           }
-          .nav-financeiro-text076 {
+          .nav-financeiro-text074 {
             color: var(--dl-color-gray-black);
             font-size: 1rem;
             font-style: normal;
@@ -1042,7 +1020,7 @@ const NavFinanceiro = (props) => {
             align-items: center;
             justify-content: flex-start;
           }
-          .nav-financeiro-text079 {
+          .nav-financeiro-text077 {
             color: var(--dl-color-gray-black);
             width: 170px;
             font-size: 1rem;
@@ -1051,7 +1029,7 @@ const NavFinanceiro = (props) => {
             font-family: Roboto Mono;
             font-weight: 600;
           }
-          .nav-financeiro-text080 {
+          .nav-financeiro-text078 {
             color: var(--dl-color-gray-black);
             width: 120px;
             font-size: 1rem;
@@ -1060,7 +1038,7 @@ const NavFinanceiro = (props) => {
             font-family: Roboto Mono;
             font-weight: 600;
           }
-          .nav-financeiro-text081 {
+          .nav-financeiro-text079 {
             color: var(--dl-color-gray-black);
             width: 300px;
             font-size: 1rem;
@@ -1069,7 +1047,7 @@ const NavFinanceiro = (props) => {
             font-family: Roboto Mono;
             font-weight: 600;
           }
-          .nav-financeiro-text082 {
+          .nav-financeiro-text080 {
             color: var(--dl-color-gray-black);
             font-size: 1rem;
             font-style: normal;
@@ -1086,7 +1064,7 @@ const NavFinanceiro = (props) => {
             align-items: center;
             justify-content: flex-start;
           }
-          .nav-financeiro-text083 {
+          .nav-financeiro-text081 {
             color: var(--dl-color-gray-black);
             width: 170px;
             font-size: 1rem;
@@ -1095,7 +1073,7 @@ const NavFinanceiro = (props) => {
             font-family: Roboto Mono;
             font-weight: 600;
           }
-          .nav-financeiro-text084 {
+          .nav-financeiro-text082 {
             color: var(--dl-color-gray-black);
             width: 120px;
             font-size: 1rem;
@@ -1104,7 +1082,7 @@ const NavFinanceiro = (props) => {
             font-family: Roboto Mono;
             font-weight: 600;
           }
-          .nav-financeiro-text085 {
+          .nav-financeiro-text083 {
             color: var(--dl-color-gray-black);
             width: 300px;
             font-size: 1rem;
@@ -1113,7 +1091,7 @@ const NavFinanceiro = (props) => {
             font-family: Roboto Mono;
             font-weight: 600;
           }
-          .nav-financeiro-text086 {
+          .nav-financeiro-text084 {
             color: var(--dl-color-gray-black);
             font-size: 1rem;
             font-style: normal;
@@ -1130,7 +1108,7 @@ const NavFinanceiro = (props) => {
             align-items: center;
             justify-content: flex-start;
           }
-          .nav-financeiro-text087 {
+          .nav-financeiro-text085 {
             color: var(--dl-color-gray-black);
             width: 170px;
             font-size: 1rem;
@@ -1139,7 +1117,7 @@ const NavFinanceiro = (props) => {
             font-family: Roboto Mono;
             font-weight: 600;
           }
-          .nav-financeiro-text088 {
+          .nav-financeiro-text086 {
             color: var(--dl-color-gray-black);
             width: 120px;
             font-size: 1rem;
@@ -1148,7 +1126,7 @@ const NavFinanceiro = (props) => {
             font-family: Roboto Mono;
             font-weight: 600;
           }
-          .nav-financeiro-text089 {
+          .nav-financeiro-text087 {
             color: var(--dl-color-gray-black);
             width: 300px;
             font-size: 1rem;
@@ -1157,7 +1135,7 @@ const NavFinanceiro = (props) => {
             font-family: Roboto Mono;
             font-weight: 600;
           }
-          .nav-financeiro-text090 {
+          .nav-financeiro-text088 {
             color: var(--dl-color-gray-black);
             font-size: 1rem;
             font-style: normal;
@@ -1174,7 +1152,7 @@ const NavFinanceiro = (props) => {
             align-items: center;
             justify-content: flex-start;
           }
-          .nav-financeiro-text093 {
+          .nav-financeiro-text091 {
             color: var(--dl-color-gray-black);
             width: 170px;
             font-size: 1rem;
@@ -1183,7 +1161,7 @@ const NavFinanceiro = (props) => {
             font-family: Roboto Mono;
             font-weight: 600;
           }
-          .nav-financeiro-text094 {
+          .nav-financeiro-text092 {
             color: var(--dl-color-gray-black);
             width: 120px;
             font-size: 1rem;
@@ -1192,7 +1170,7 @@ const NavFinanceiro = (props) => {
             font-family: Roboto Mono;
             font-weight: 600;
           }
-          .nav-financeiro-text095 {
+          .nav-financeiro-text093 {
             color: var(--dl-color-gray-black);
             width: 300px;
             font-size: 1rem;
@@ -1201,7 +1179,7 @@ const NavFinanceiro = (props) => {
             font-family: Roboto Mono;
             font-weight: 600;
           }
-          .nav-financeiro-text096 {
+          .nav-financeiro-text094 {
             color: var(--dl-color-gray-black);
             font-size: 1rem;
             font-style: normal;
@@ -1224,25 +1202,25 @@ const NavFinanceiro = (props) => {
             align-items: center;
             justify-content: flex-start;
           }
+          .nav-financeiro-text097 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: left;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text098 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: left;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
           .nav-financeiro-text099 {
-            color: var(--dl-color-gray-black);
-            width: 300px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text100 {
-            color: var(--dl-color-gray-black);
-            width: 300px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text101 {
             color: var(--dl-color-gray-black);
             font-size: 1rem;
             font-style: normal;
@@ -1250,7 +1228,7 @@ const NavFinanceiro = (props) => {
             font-family: Roboto Mono;
             font-weight: 600;
           }
-          .nav-financeiro-text104 {
+          .nav-financeiro-text102 {
             color: var(--dl-color-gray-black);
             font-size: 1rem;
             font-style: normal;
@@ -1267,25 +1245,25 @@ const NavFinanceiro = (props) => {
             align-items: center;
             justify-content: flex-start;
           }
+          .nav-financeiro-text105 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: left;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text106 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: left;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
           .nav-financeiro-text107 {
-            color: var(--dl-color-gray-black);
-            width: 300px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text108 {
-            color: var(--dl-color-gray-black);
-            width: 300px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text109 {
             color: var(--dl-color-gray-black);
             font-size: 1rem;
             font-style: normal;
@@ -1293,7 +1271,7 @@ const NavFinanceiro = (props) => {
             font-family: Roboto Mono;
             font-weight: 600;
           }
-          .nav-financeiro-text110 {
+          .nav-financeiro-text108 {
             color: var(--dl-color-gray-black);
             font-size: 1rem;
             font-style: normal;
@@ -1310,25 +1288,25 @@ const NavFinanceiro = (props) => {
             align-items: center;
             justify-content: flex-start;
           }
+          .nav-financeiro-text109 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: left;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text110 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: left;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
           .nav-financeiro-text111 {
-            color: var(--dl-color-gray-black);
-            width: 300px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text112 {
-            color: var(--dl-color-gray-black);
-            width: 300px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text113 {
             color: var(--dl-color-gray-black);
             font-size: 1rem;
             font-style: normal;
@@ -1336,7 +1314,7 @@ const NavFinanceiro = (props) => {
             font-family: Roboto Mono;
             font-weight: 600;
           }
-          .nav-financeiro-text114 {
+          .nav-financeiro-text112 {
             color: var(--dl-color-gray-black);
             font-size: 1rem;
             font-style: normal;
@@ -1361,11 +1339,6 @@ const NavFinanceiro = (props) => {
               padding-right: var(--dl-space-space-twounits);
             }
             .nav-financeiro-nav {
-              display: none;
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .nav-financeiro-nav1 {
               display: none;
               align-items: flex-start;
               flex-direction: column;

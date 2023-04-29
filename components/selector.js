@@ -31,14 +31,6 @@ const Selector = (props) => {
             </p>
           </div>
           <div className="selector-sorting">
-            {isTodos && (
-              <button
-                type="button"
-                className="selector-option button-option button"
-              >
-                {props.Option}
-              </button>
-            )}
             {!isTodos && (
               <button
                 type="button"
@@ -48,9 +40,17 @@ const Selector = (props) => {
                   setIsAlunos(false)
                   setIsCriacoes(false)
                 }}
-                className="selector-option1 button-option button"
+                className="selector-option button-option button"
               >
                 {props.Option4}
+              </button>
+            )}
+            {isTodos && (
+              <button
+                type="button"
+                className="selector-option1 button-option button"
+              >
+                {props.Option}
               </button>
             )}
             {!isProfessores && (
@@ -137,7 +137,7 @@ const Selector = (props) => {
             </Link>
           )}
           {isCriacoes && (
-            <Link href="/">
+            <Link href="/produto">
               <a>
                 <div className="selector-offer-container01">
                   <Offer
@@ -763,12 +763,12 @@ const Selector = (props) => {
             flex-direction: row;
           }
           .selector-option {
-            border-width: 0px;
-            background-color: #fad87a;
-          }
-          .selector-option1 {
             border-width: 1px;
             background-color: transparent;
+          }
+          .selector-option1 {
+            border-width: 0px;
+            background-color: #fad87a;
           }
           .selector-option3 {
             border-width: 0px;
@@ -800,6 +800,7 @@ const Selector = (props) => {
             width: 100%;
             height: 500px;
             display: flex;
+            justify-content: flex-start;
             text-decoration: none;
           }
           .selector-offer-container02 {

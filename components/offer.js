@@ -19,7 +19,7 @@ const Offer = (props) => {
         {`
           .offer-offer {
             gap: var(--dl-space-space-oneandhalfunits);
-            width: 350px;
+            width: 100%;
             display: flex;
             position: relative;
             flex-direction: column;
@@ -68,7 +68,7 @@ const Offer = (props) => {
 }
 
 Offer.defaultProps = {
-  Image: '/playground_assets/offers-11-300h.png',
+  Image: '/playground_assets/offers-11-1500w.png',
   Criacoes: '3 Local guides',
   Description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',

@@ -22,22 +22,22 @@ const AreaFinanceira = (props) => {
                   src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
                   className="area-financeira-image"
                 />
-                <span className="area-financeira-text">Matéria</span>
+                <span className="area-financeira-text">DASHBOARDS</span>
                 <div className="area-financeira-options">
                   <span className="area-financeira-text01">
-                    <span>Informática</span>
+                    <span>Analytics</span>
                     <br></br>
                   </span>
                   <span className="area-financeira-text04">
-                    <span>Química</span>
+                    <span>Criações</span>
                     <br></br>
                   </span>
                   <span className="area-financeira-text07">
-                    <span>Laboratório</span>
+                    <span>Parceiros</span>
                     <br></br>
                   </span>
-                  <span className="area-financeira-text10">Biodiversidade</span>
-                  <span className="area-financeira-text11">Biologia</span>
+                  <span className="area-financeira-text10">Despesas</span>
+                  <span className="area-financeira-text11">Colaboradores</span>
                 </div>
               </div>
             </div>
@@ -45,14 +45,16 @@ const AreaFinanceira = (props) => {
               <div className="area-financeira-container2">
                 <img
                   alt="image"
-                  src="https://images.unsplash.com/photo-1596419249688-aecfbe1ae6bb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI5fHxibGFjayUyMGFuZCUyMHdoaXRlJTIwZmFjZXxlbnwwfHx8fDE2ODI3ODM1Njg&amp;ixlib=rb-4.0.3&amp;w=200"
+                  src="https://images.unsplash.com/photo-1570825423916-690c2a5e98e2?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI0fHxibGFjayUyMGFuZCUyMHdoaXRlJTIwZmFjZXxlbnwwfHx8fDE2ODI3ODM1NTk&amp;ixlib=rb-4.0.3&amp;w=200"
                   className="area-financeira-image1"
                 />
                 <div className="area-financeira-container3">
                   <span className="area-financeira-text12">
-                    Rui Alencar Urich
+                    Joseph Jack James
                   </span>
-                  <span className="area-financeira-text13">Aluno</span>
+                  <span className="area-financeira-text13">
+                    Analista Financeiro
+                  </span>
                 </div>
               </div>
               <h1 className="area-financeira-text14">...</h1>
@@ -111,7 +113,7 @@ const AreaFinanceira = (props) => {
             object-position: left;
           }
           .area-financeira-text {
-            font-family: Roboto Mono;
+            font-family: Noto Sans;
             font-weight: 600;
             margin-bottom: var(--dl-space-space-unit);
             text-transform: uppercase;
@@ -123,28 +125,29 @@ const AreaFinanceira = (props) => {
             flex-direction: column;
           }
           .area-financeira-text01 {
+            color: var(--dl-color-primary-300);
             font-style: normal;
-            font-family: Roboto Mono;
+            font-family: Noto Sans;
             font-weight: 400;
           }
           .area-financeira-text04 {
             font-style: normal;
-            font-family: Roboto Mono;
+            font-family: Noto Sans;
             font-weight: 400;
           }
           .area-financeira-text07 {
             font-style: normal;
-            font-family: Roboto Mono;
+            font-family: Noto Sans;
             font-weight: 400;
           }
           .area-financeira-text10 {
             font-style: normal;
-            font-family: Roboto Mono;
+            font-family: Noto Sans;
             font-weight: 400;
           }
           .area-financeira-text11 {
             font-style: normal;
-            font-family: Roboto Mono;
+            font-family: Noto Sans;
             font-weight: 400;
           }
           .area-financeira-profile {
