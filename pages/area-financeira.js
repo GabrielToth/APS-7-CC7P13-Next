@@ -1,69 +1,69 @@
 import React from 'react'
 import Head from 'next/head'
 
-import NavAlunos from '../components/nav-alunos'
+import NavFinanceiro from '../components/nav-financeiro'
 
-const AreaDosAlunos = (props) => {
+const AreaFinanceira = (props) => {
   return (
     <>
-      <div className="area-dos-alunos-container">
+      <div className="area-financeira-container">
         <Head>
-          <title>AreaDosAlunos - APS-7-UNIP</title>
+          <title>AreaFinanceira - APS-7-UNIP</title>
           <meta name="description" content="APS-7-UNIP" />
-          <meta property="og:title" content="AreaDosAlunos - APS-7-UNIP" />
+          <meta property="og:title" content="AreaFinanceira - APS-7-UNIP" />
           <meta property="og:description" content="APS-7-UNIP" />
         </Head>
-        <div className="area-dos-alunos-container1">
-          <nav className="area-dos-alunos-sidebar">
-            <div className="area-dos-alunos-nav-itens">
-              <div className="area-dos-alunos-nav-item">
+        <div className="area-financeira-container1">
+          <nav className="area-financeira-sidebar">
+            <div className="area-financeira-nav-itens">
+              <div className="area-financeira-nav-item">
                 <img
                   alt="logo"
                   src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
-                  className="area-dos-alunos-image"
+                  className="area-financeira-image"
                 />
-                <span className="area-dos-alunos-text">Matéria</span>
-                <div className="area-dos-alunos-options">
-                  <span className="area-dos-alunos-text01">
+                <span className="area-financeira-text">Matéria</span>
+                <div className="area-financeira-options">
+                  <span className="area-financeira-text01">
                     <span>Informática</span>
                     <br></br>
                   </span>
-                  <span className="area-dos-alunos-text04">
+                  <span className="area-financeira-text04">
                     <span>Química</span>
                     <br></br>
                   </span>
-                  <span className="area-dos-alunos-text07">
+                  <span className="area-financeira-text07">
                     <span>Laboratório</span>
                     <br></br>
                   </span>
-                  <span className="area-dos-alunos-text10">Biodiversidade</span>
-                  <span className="area-dos-alunos-text11">Biologia</span>
+                  <span className="area-financeira-text10">Biodiversidade</span>
+                  <span className="area-financeira-text11">Biologia</span>
                 </div>
               </div>
             </div>
-            <div className="area-dos-alunos-profile">
-              <div className="area-dos-alunos-container2">
+            <div className="area-financeira-profile">
+              <div className="area-financeira-container2">
                 <img
                   alt="image"
                   src="https://images.unsplash.com/photo-1596419249688-aecfbe1ae6bb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI5fHxibGFjayUyMGFuZCUyMHdoaXRlJTIwZmFjZXxlbnwwfHx8fDE2ODI3ODM1Njg&amp;ixlib=rb-4.0.3&amp;w=200"
-                  className="area-dos-alunos-image1"
+                  className="area-financeira-image1"
                 />
-                <div className="area-dos-alunos-container3">
-                  <span className="area-dos-alunos-text12">
+                <div className="area-financeira-container3">
+                  <span className="area-financeira-text12">
                     Rui Alencar Urich
                   </span>
-                  <span className="area-dos-alunos-text13">Aluno</span>
+                  <span className="area-financeira-text13">Aluno</span>
                 </div>
               </div>
-              <h1 className="area-dos-alunos-text14">...</h1>
+              <h1 className="area-financeira-text14">...</h1>
             </div>
           </nav>
-          <NavAlunos></NavAlunos>
+          <NavFinanceiro rootClassName="nav-financeiro-root-class-name"></NavFinanceiro>
         </div>
       </div>
       <style jsx>
         {`
-          .area-dos-alunos-container {
+          .area-financeira-container {
             width: 100%;
             display: flex;
             overflow: auto;
@@ -72,80 +72,82 @@ const AreaDosAlunos = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .area-dos-alunos-container1 {
+          .area-financeira-container1 {
             width: 100%;
             height: 100%;
             display: flex;
             align-items: flex-start;
             flex-direction: row;
             justify-content: flex-start;
+            background-color: #f5f5f5;
           }
-          .area-dos-alunos-sidebar {
+          .area-financeira-sidebar {
+            flex: 300px;
             width: 25%;
             height: 100vh;
             display: flex;
             padding: var(--dl-space-space-twounits);
-            min-width: 300px;
             align-items: flex-start;
             flex-direction: column;
             justify-content: space-between;
+            background-color: var(--dl-color-gray-white);
           }
-          .area-dos-alunos-nav-itens {
+          .area-financeira-nav-itens {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: flex-start;
           }
-          .area-dos-alunos-nav-item {
+          .area-financeira-nav-item {
             display: flex;
             flex-direction: column;
           }
-          .area-dos-alunos-image {
+          .area-financeira-image {
             width: 2rem;
             height: 2rem;
             object-fit: cover;
             margin-bottom: var(--dl-space-space-twounits);
             object-position: left;
           }
-          .area-dos-alunos-text {
+          .area-financeira-text {
             font-family: Roboto Mono;
             font-weight: 600;
             margin-bottom: var(--dl-space-space-unit);
             text-transform: uppercase;
           }
-          .area-dos-alunos-options {
+          .area-financeira-options {
             gap: var(--dl-space-space-unit);
             display: flex;
             margin-left: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .area-dos-alunos-text01 {
+          .area-financeira-text01 {
             font-style: normal;
             font-family: Roboto Mono;
             font-weight: 400;
           }
-          .area-dos-alunos-text04 {
+          .area-financeira-text04 {
             font-style: normal;
             font-family: Roboto Mono;
             font-weight: 400;
           }
-          .area-dos-alunos-text07 {
+          .area-financeira-text07 {
             font-style: normal;
             font-family: Roboto Mono;
             font-weight: 400;
           }
-          .area-dos-alunos-text10 {
+          .area-financeira-text10 {
             font-style: normal;
             font-family: Roboto Mono;
             font-weight: 400;
           }
-          .area-dos-alunos-text11 {
+          .area-financeira-text11 {
             font-style: normal;
             font-family: Roboto Mono;
             font-weight: 400;
           }
-          .area-dos-alunos-profile {
+          .area-financeira-profile {
             display: flex;
             align-self: stretch;
             align-items: center;
@@ -159,50 +161,50 @@ const AreaDosAlunos = (props) => {
             border-right-width: 0px;
             border-bottom-width: 0px;
           }
-          .area-dos-alunos-container2 {
+          .area-financeira-container2 {
             display: flex;
             align-items: center;
             flex-direction: row;
             justify-content: space-between;
           }
-          .area-dos-alunos-image1 {
+          .area-financeira-image1 {
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
             object-fit: cover;
             border-radius: var(--dl-radius-radius-round);
           }
-          .area-dos-alunos-container3 {
+          .area-financeira-container3 {
             display: flex;
             align-items: flex-start;
             margin-left: var(--dl-space-space-halfunit);
             flex-direction: column;
             justify-content: space-between;
           }
-          .area-dos-alunos-text12 {
+          .area-financeira-text12 {
             font-size: 1.15rem;
             font-style: normal;
             font-weight: 600;
             margin-bottom: 0.25rem;
           }
-          .area-dos-alunos-text13 {
+          .area-financeira-text13 {
             color: var(--dl-color-gray-500);
             font-size: 0.75rem;
           }
-          .area-dos-alunos-text14 {
+          .area-financeira-text14 {
             padding-left: var(--dl-space-space-halfunit);
             padding-right: var(--dl-space-space-halfunit);
             letter-spacing: 2px;
             padding-bottom: var(--dl-space-space-halfunit);
           }
           @media (max-width: 991px) {
-            .area-dos-alunos-container1 {
+            .area-financeira-container1 {
               justify-content: flex-start;
             }
-            .area-dos-alunos-profile {
+            .area-financeira-profile {
               padding-left: var(--dl-space-space-halfunit);
               padding-right: var(--dl-space-space-halfunit);
             }
-            .area-dos-alunos-image1 {
+            .area-financeira-image1 {
               margin-left: 0px;
             }
           }
@@ -212,4 +214,4 @@ const AreaDosAlunos = (props) => {
   )
 }
 
-export default AreaDosAlunos
+export default AreaFinanceira
