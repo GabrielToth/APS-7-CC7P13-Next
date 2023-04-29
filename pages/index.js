@@ -63,9 +63,9 @@ const Home = (props) => {
                   >
                     <div className="home-container1">
                       <img
-                        alt="image"
-                        src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
-                        className="home-image1"
+                        alt="logo"
+                        src="/playground_assets/logo.svg"
+                        className="home-logo1"
                       />
                       <div
                         data-thq="thq-close-menu"
@@ -81,11 +81,22 @@ const Home = (props) => {
                       data-role="Nav"
                       className="home-nav1"
                     >
-                      <span className="home-text">About</span>
-                      <span className="home-text01">Features</span>
-                      <span className="home-text02">Pricing</span>
-                      <span className="home-text03">Team</span>
-                      <span className="home-text04">Blog</span>
+                      <Link href="/wip">
+                        <a className="home-link04 link">Sobre nós</a>
+                      </Link>
+                      <Link href="/wip">
+                        <a className="home-link05 link">Como funciona</a>
+                      </Link>
+                      <Link href="/area-dos-professores">
+                        <a className="home-link06 link">Professores</a>
+                      </Link>
+                      <Link href="/area-dos-alunos">
+                        <a className="home-link07 link">Alunos</a>
+                      </Link>
+                      <span className="home-text link">
+                        <span>Financeiro</span>
+                        <br></br>
+                      </span>
                     </nav>
                     <div className="home-container2">
                       <button className="home-login button">Login</button>
@@ -117,9 +128,9 @@ const Home = (props) => {
               <div className="home-center">
                 <div className="home-heading">
                   <h1 className="home-header">
-                    <span className="home-text05">Transforme vidas,</span>
-                    <br className="home-text06"></br>
-                    <span className="home-text07"> Mude o mundo.</span>
+                    <span className="home-text03">Transforme vidas,</span>
+                    <br className="home-text04"></br>
+                    <span className="home-text05"> Mude o mundo.</span>
                     <br></br>
                   </h1>
                   <p className="home-caption">
@@ -133,7 +144,7 @@ const Home = (props) => {
                         }}
                       />
                     </span>
-                    <span className="home-text12">inovação</span>
+                    <span className="home-text10">inovação</span>
                   </p>
                   <button className="home-option button-option button">
                     Conhecer
@@ -196,27 +207,27 @@ const Home = (props) => {
                 </p>
               </div>
               <Link href="/wip">
-                <a className="home-link04 button-arrow button">
-                  <span className="home-text13">Saiba mais</span>
-                  <span className="home-text14">&gt;</span>
+                <a className="home-link08 button-arrow button">
+                  <span className="home-text11">Saiba mais</span>
+                  <span className="home-text12">&gt;</span>
                 </a>
               </Link>
             </div>
-            <div className="home-image2">
+            <div className="home-image1">
               <img
                 alt="image"
                 src="/playground_assets/highlight-1-1500w.png"
-                className="home-image3"
+                className="home-image2"
               />
               <div className="home-rectangle"></div>
             </div>
           </div>
           <div className="home-highlight1">
-            <div className="home-image4">
+            <div className="home-image3">
               <img
                 alt="image"
                 src="/playground_assets/highlight-2-1500w.png"
-                className="home-image5"
+                className="home-image4"
               />
             </div>
             <div className="home-content04">
@@ -233,7 +244,7 @@ const Home = (props) => {
                       }}
                     />
                   </span>
-                  <span className="home-text16">transformadas</span>
+                  <span className="home-text14">transformadas</span>
                   <span>.</span>
                   <br></br>
                   <span>
@@ -437,7 +448,7 @@ const Home = (props) => {
             </p>
           </div>
           <Link href="/wip">
-            <a className="home-link05 button">Ver criações</a>
+            <a className="home-link09 button">Ver criações</a>
           </Link>
         </section>
         <section className="home-footer">
@@ -448,7 +459,7 @@ const Home = (props) => {
                   <img
                     alt="image"
                     src="/playground_assets/logo.svg"
-                    className="home-image6"
+                    className="home-image5"
                   />
                   <p className="home-caption5">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -458,47 +469,47 @@ const Home = (props) => {
               </div>
               <div className="home-links1">
                 <div className="home-items">
-                  <button className="home-link06 button button-clean">
+                  <button className="home-link10 button button-clean">
                     Professores
                   </button>
-                  <button className="home-link07 button button-clean">
+                  <button className="home-link11 button button-clean">
                     Alunos
                   </button>
-                  <button className="home-link08 button button-clean">
+                  <button className="home-link12 button button-clean">
                     Criações
                   </button>
                 </div>
                 <div className="home-items1">
                   <a
                     href="#how-it-works"
-                    className="home-link09 button button-clean"
+                    className="home-link13 button button-clean"
                   >
                     Como funciona
                   </a>
-                  <button className="home-link10 button button-clean">
+                  <button className="home-link14 button button-clean">
                     Política de Cancelamento
                   </button>
-                  <button className="home-link11 button button-clean">
+                  <button className="home-link15 button button-clean">
                     Local guides
                   </button>
-                  <button className="home-link12 button button-clean">
+                  <button className="home-link16 button button-clean">
                     Affiliate
                   </button>
                 </div>
                 <div className="home-items2">
-                  <button className="home-link13 button button-clean">
+                  <button className="home-link17 button button-clean">
                     About us
                   </button>
-                  <button className="home-link14 button button-clean">
+                  <button className="home-link18 button button-clean">
                     Blog
                   </button>
-                  <button className="home-link15 button button-clean">
+                  <button className="home-link19 button button-clean">
                     Partners
                   </button>
-                  <button className="home-link16 button button-clean">
+                  <button className="home-link20 button button-clean">
                     Faqs
                   </button>
-                  <button className="home-link17 button button-clean">
+                  <button className="home-link21 button button-clean">
                     Careers
                   </button>
                 </div>
@@ -734,8 +745,11 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-threeunits);
             justify-content: space-between;
           }
-          .home-image1 {
-            height: 2rem;
+          .home-logo1 {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            object-position: left;
           }
           .home-menu-close {
             display: flex;
@@ -752,20 +766,20 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
+          .home-link04 {
+            text-decoration: none;
+          }
+          .home-link05 {
+            text-decoration: none;
+          }
+          .home-link06 {
+            text-decoration: none;
+          }
+          .home-link07 {
+            text-decoration: none;
+          }
           .home-text {
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .home-text01 {
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .home-text02 {
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .home-text03 {
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .home-text04 {
-            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
           }
           .home-container2 {
             flex: 0 0 auto;
@@ -835,7 +849,7 @@ const Home = (props) => {
             font-family: Karla;
             line-height: 27px;
           }
-          .home-text12 {
+          .home-text10 {
             color: #5bc786;
             font-style: normal;
             font-weight: 700;
@@ -980,7 +994,7 @@ const Home = (props) => {
             font-family: Karla;
             line-height: 27px;
           }
-          .home-link04 {
+          .home-link08 {
             padding: var(--dl-space-space-unit);
             align-items: center;
             border-color: #949aa5;
@@ -989,22 +1003,22 @@ const Home = (props) => {
             padding-bottom: 16px;
             text-decoration: none;
           }
-          .home-text13 {
+          .home-text11 {
             font-style: normal;
             font-weight: 500;
           }
-          .home-text14 {
+          .home-text12 {
             font-style: normal;
             font-weight: 500;
           }
-          .home-image2 {
+          .home-image1 {
             display: flex;
             position: relative;
             align-items: flex-end;
             flex-direction: row;
             justify-content: center;
           }
-          .home-image3 {
+          .home-image2 {
             object-fit: cover;
           }
           .home-rectangle {
@@ -1027,7 +1041,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .home-image4 {
+          .home-image3 {
             height: 530px;
             display: flex;
             overflow: hidden;
@@ -1036,7 +1050,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .home-image5 {
+          .home-image4 {
             width: 100%;
             height: 100%;
             object-fit: cover;
@@ -1074,7 +1088,7 @@ const Home = (props) => {
             font-family: Karla;
             line-height: 27px;
           }
-          .home-text16 {
+          .home-text14 {
             color: #397b53;
             font-style: normal;
             font-weight: 700;
@@ -1358,7 +1372,7 @@ const Home = (props) => {
             font-family: Karla;
             line-height: 27px;
           }
-          .home-link05 {
+          .home-link09 {
             font-style: normal;
             transition: 0.3s;
             font-weight: 500;
@@ -1371,7 +1385,7 @@ const Home = (props) => {
             text-decoration: none;
             background-color: rgb(250, 216, 122);
           }
-          .home-link05:hover {
+          .home-link09:hover {
             opacity: 0.5;
           }
           .home-footer {
@@ -1414,7 +1428,7 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-image6 {
+          .home-image5 {
             height: 33px;
             object-fit: cover;
           }
@@ -1435,14 +1449,14 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-link06 {
+          .home-link10 {
             color: rgb(255, 255, 255);
           }
-          .home-link07 {
+          .home-link11 {
             color: rgb(255, 255, 255);
             text-decoration: none;
           }
-          .home-link08 {
+          .home-link12 {
             color: rgb(255, 255, 255);
             text-decoration: none;
           }
@@ -1452,27 +1466,9 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-link09 {
-            color: rgb(255, 255, 255);
-            text-decoration: none;
-          }
-          .home-link10 {
-            color: rgb(255, 255, 255);
-          }
-          .home-link11 {
-            color: rgb(255, 255, 255);
-          }
-          .home-link12 {
-            color: rgb(255, 255, 255);
-          }
-          .home-items2 {
-            gap: var(--dl-space-space-unit);
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-          }
           .home-link13 {
             color: rgb(255, 255, 255);
+            text-decoration: none;
           }
           .home-link14 {
             color: rgb(255, 255, 255);
@@ -1483,7 +1479,25 @@ const Home = (props) => {
           .home-link16 {
             color: rgb(255, 255, 255);
           }
+          .home-items2 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+          }
           .home-link17 {
+            color: rgb(255, 255, 255);
+          }
+          .home-link18 {
+            color: rgb(255, 255, 255);
+          }
+          .home-link19 {
+            color: rgb(255, 255, 255);
+          }
+          .home-link20 {
+            color: rgb(255, 255, 255);
+          }
+          .home-link21 {
             color: rgb(255, 255, 255);
           }
           .home-copyright {
@@ -1618,15 +1632,15 @@ const Home = (props) => {
               font-size: 40px;
               line-height: 40px;
             }
+            .home-text03 {
+              font-size: 40px;
+              line-height: 40px;
+            }
+            .home-text04 {
+              font-size: 40px;
+              line-height: 40px;
+            }
             .home-text05 {
-              font-size: 40px;
-              line-height: 40px;
-            }
-            .home-text06 {
-              font-size: 40px;
-              line-height: 40px;
-            }
-            .home-text07 {
               font-size: 40px;
               line-height: 40px;
             }
@@ -1698,7 +1712,7 @@ const Home = (props) => {
             .home-caption1 {
               font-size: 16px;
             }
-            .home-image4 {
+            .home-image3 {
               width: 100%;
               height: auto;
             }
@@ -1776,7 +1790,7 @@ const Home = (props) => {
             .home-mobile-menu {
               padding: 16px;
             }
-            .home-image3 {
+            .home-image2 {
               width: 100%;
             }
             .home-rectangle {
