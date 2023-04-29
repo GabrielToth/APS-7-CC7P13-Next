@@ -20,7 +20,13 @@ const NavAlunos = (props) => {
                 {props.button3}
               </button>
               {!isCriacao && (
-                <button className="nav-alunos-button2 button">
+                <button
+                  onClick={() => {
+                    setIsCriacao(true)
+                    setIsMaterias(false)
+                  }}
+                  className="nav-alunos-button2 button"
+                >
                   {props.button2}
                 </button>
               )}
@@ -30,7 +36,13 @@ const NavAlunos = (props) => {
                 </button>
               )}
               {!isMaterias && (
-                <button className="nav-alunos-button4 button">
+                <button
+                  onClick={() => {
+                    setIsMaterias(true)
+                    setIsCriacao(false)
+                  }}
+                  className="nav-alunos-button4 button"
+                >
                   {props.button1}
                 </button>
               )}
@@ -94,96 +106,89 @@ const NavAlunos = (props) => {
           <h1 className="nav-alunos-text03">{props.heading3}</h1>
         </div>
         <div className="nav-alunos-container04">
-          <h1 className="nav-alunos-text04">{props.heading4}</h1>
-          <h1 className="nav-alunos-text05">{props.heading5}</h1>
+          {isMaterias && (
+            <h1 className="nav-alunos-text04">{props.heading4}</h1>
+          )}
+          {isCriacao && (
+            <h1 className="nav-alunos-text05">{props.heading41}</h1>
+          )}
           <h1 className="nav-alunos-text06">{props.heading6}</h1>
           <h1 className="nav-alunos-text07">
-            <span>Data</span>
+            <span>Lançamento</span>
             <br></br>
           </h1>
         </div>
-        <div className="nav-alunos-container05">
-          <div className="nav-alunos-container06">
-            <h1 className="nav-alunos-text10">{props.heading7}</h1>
-            <h1 className="nav-alunos-text11">{props.heading8}</h1>
-            <h1 className="nav-alunos-text12">{props.heading9}</h1>
-            <h1 className="nav-alunos-text13">
-              <span>09/03/2023</span>
-              <br></br>
-            </h1>
+        {isMaterias && (
+          <div className="nav-alunos-container05">
+            <div className="nav-alunos-container06">
+              <h1 className="nav-alunos-text10">{props.heading7}</h1>
+              <h1 className="nav-alunos-text11">{props.heading8}</h1>
+              <h1 className="nav-alunos-text12">{props.heading9}</h1>
+              <h1 className="nav-alunos-text13">
+                <span>09/03/2023</span>
+                <br></br>
+              </h1>
+            </div>
+            <div className="nav-alunos-container07">
+              <h1 className="nav-alunos-text16">{props.heading10}</h1>
+              <h1 className="nav-alunos-text17">{props.heading11}</h1>
+              <h1 className="nav-alunos-text18">{props.heading12}</h1>
+              <h1 className="nav-alunos-text19">{props.heading13}</h1>
+            </div>
+            <div className="nav-alunos-container08">
+              <h1 className="nav-alunos-text20">{props.heading14}</h1>
+              <h1 className="nav-alunos-text21">{props.heading15}</h1>
+              <h1 className="nav-alunos-text22">{props.heading16}</h1>
+              <h1 className="nav-alunos-text23">{props.heading17}</h1>
+            </div>
+            <div className="nav-alunos-container09">
+              <h1 className="nav-alunos-text24">{props.heading18}</h1>
+              <h1 className="nav-alunos-text25">{props.heading19}</h1>
+              <h1 className="nav-alunos-text26">{props.heading20}</h1>
+              <h1 className="nav-alunos-text27">
+                <span>07/03/2023</span>
+                <br></br>
+              </h1>
+            </div>
+            <div className="nav-alunos-container10">
+              <h1 className="nav-alunos-text30">{props.heading21}</h1>
+              <h1 className="nav-alunos-text31">{props.heading22}</h1>
+              <h1 className="nav-alunos-text32">{props.heading23}</h1>
+              <h1 className="nav-alunos-text33">
+                <span>06/03/2023</span>
+                <br></br>
+              </h1>
+            </div>
           </div>
-          <div className="nav-alunos-container07">
-            <h1 className="nav-alunos-text16">{props.heading10}</h1>
-            <h1 className="nav-alunos-text17">{props.heading11}</h1>
-            <h1 className="nav-alunos-text18">{props.heading12}</h1>
-            <h1 className="nav-alunos-text19">{props.heading13}</h1>
+        )}
+        {isCriacao && (
+          <div className="nav-alunos-container11">
+            <div className="nav-alunos-container12">
+              <h1 className="nav-alunos-text36">{props.heading24}</h1>
+              <h1 className="nav-alunos-text37">{props.heading26}</h1>
+              <h1 className="nav-alunos-text38">
+                <span>09/05/2023</span>
+                <br></br>
+              </h1>
+              <h1 className="nav-alunos-text41">
+                <span>Ver mais</span>
+                <br></br>
+              </h1>
+            </div>
+            <div className="nav-alunos-container13">
+              <h1 className="nav-alunos-text44">{props.heading27}</h1>
+              <h1 className="nav-alunos-text45">{props.heading29}</h1>
+              <h1 className="nav-alunos-text46">{props.heading30}</h1>
+              <h1 className="nav-alunos-text47">{props.heading301}</h1>
+            </div>
+            <div className="nav-alunos-container14">
+              <h1 className="nav-alunos-text48">{props.heading31}</h1>
+              <h1 className="nav-alunos-text49">{props.heading33}</h1>
+              <h1 className="nav-alunos-text50">{props.heading34}</h1>
+              <h1 className="nav-alunos-text51">{props.heading341}</h1>
+            </div>
           </div>
-          <div className="nav-alunos-container08">
-            <h1 className="nav-alunos-text20">{props.heading14}</h1>
-            <h1 className="nav-alunos-text21">{props.heading15}</h1>
-            <h1 className="nav-alunos-text22">{props.heading16}</h1>
-            <h1 className="nav-alunos-text23">{props.heading17}</h1>
-          </div>
-          <div className="nav-alunos-container09">
-            <h1 className="nav-alunos-text24">{props.heading18}</h1>
-            <h1 className="nav-alunos-text25">{props.heading19}</h1>
-            <h1 className="nav-alunos-text26">{props.heading20}</h1>
-            <h1 className="nav-alunos-text27">
-              <span>07/03/2023</span>
-              <br></br>
-            </h1>
-          </div>
-          <div className="nav-alunos-container10">
-            <h1 className="nav-alunos-text30">{props.heading21}</h1>
-            <h1 className="nav-alunos-text31">{props.heading22}</h1>
-            <h1 className="nav-alunos-text32">{props.heading23}</h1>
-            <h1 className="nav-alunos-text33">
-              <span>06/03/2023</span>
-              <br></br>
-            </h1>
-          </div>
-        </div>
-        <div className="nav-alunos-container11">
-          <div className="nav-alunos-container12">
-            <h1 className="nav-alunos-text36">{props.heading24}</h1>
-            <h1 className="nav-alunos-text37">{props.heading25}</h1>
-            <h1 className="nav-alunos-text38">{props.heading26}</h1>
-            <h1 className="nav-alunos-text39">
-              <span>09/03/2023</span>
-              <br></br>
-            </h1>
-          </div>
-          <div className="nav-alunos-container13">
-            <h1 className="nav-alunos-text42">{props.heading27}</h1>
-            <h1 className="nav-alunos-text43">{props.heading28}</h1>
-            <h1 className="nav-alunos-text44">{props.heading29}</h1>
-            <h1 className="nav-alunos-text45">{props.heading30}</h1>
-          </div>
-          <div className="nav-alunos-container14">
-            <h1 className="nav-alunos-text46">{props.heading31}</h1>
-            <h1 className="nav-alunos-text47">{props.heading32}</h1>
-            <h1 className="nav-alunos-text48">{props.heading33}</h1>
-            <h1 className="nav-alunos-text49">{props.heading34}</h1>
-          </div>
-          <div className="nav-alunos-container15">
-            <h1 className="nav-alunos-text50">{props.heading35}</h1>
-            <h1 className="nav-alunos-text51">{props.heading36}</h1>
-            <h1 className="nav-alunos-text52">{props.heading37}</h1>
-            <h1 className="nav-alunos-text53">
-              <span>07/03/2023</span>
-              <br></br>
-            </h1>
-          </div>
-          <div className="nav-alunos-container16">
-            <h1 className="nav-alunos-text56">{props.heading38}</h1>
-            <h1 className="nav-alunos-text57">{props.heading39}</h1>
-            <h1 className="nav-alunos-text58">{props.heading40}</h1>
-            <h1 className="nav-alunos-text59">
-              <span>06/03/2023</span>
-              <br></br>
-            </h1>
-          </div>
-        </div>
+        )}
       </div>
       <style jsx>
         {`
@@ -370,7 +375,7 @@ const NavAlunos = (props) => {
           }
           .nav-alunos-text05 {
             color: var(--dl-color-gray-white);
-            width: 120px;
+            width: 300px;
             font-size: 1rem;
             font-style: normal;
             text-align: center;
@@ -637,7 +642,7 @@ const NavAlunos = (props) => {
           }
           .nav-alunos-text36 {
             color: var(--dl-color-gray-black);
-            width: 170px;
+            width: 300px;
             font-size: 1rem;
             font-style: normal;
             text-align: left;
@@ -646,15 +651,6 @@ const NavAlunos = (props) => {
           }
           .nav-alunos-text37 {
             color: var(--dl-color-gray-black);
-            width: 120px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: center;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-alunos-text38 {
-            color: var(--dl-color-gray-black);
             width: 300px;
             font-size: 1rem;
             font-style: normal;
@@ -662,7 +658,15 @@ const NavAlunos = (props) => {
             font-family: Roboto Mono;
             font-weight: 600;
           }
-          .nav-alunos-text39 {
+          .nav-alunos-text38 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-alunos-text41 {
             color: var(--dl-color-gray-black);
             font-size: 1rem;
             font-style: normal;
@@ -679,24 +683,6 @@ const NavAlunos = (props) => {
             align-items: center;
             justify-content: flex-start;
           }
-          .nav-alunos-text42 {
-            color: var(--dl-color-gray-black);
-            width: 170px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-alunos-text43 {
-            color: var(--dl-color-gray-black);
-            width: 120px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: center;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
           .nav-alunos-text44 {
             color: var(--dl-color-gray-black);
             width: 300px;
@@ -707,6 +693,23 @@ const NavAlunos = (props) => {
             font-weight: 600;
           }
           .nav-alunos-text45 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: left;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-alunos-text46 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-alunos-text47 {
             color: var(--dl-color-gray-black);
             font-size: 1rem;
             font-style: normal;
@@ -723,24 +726,6 @@ const NavAlunos = (props) => {
             align-items: center;
             justify-content: flex-start;
           }
-          .nav-alunos-text46 {
-            color: var(--dl-color-gray-black);
-            width: 170px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-alunos-text47 {
-            color: var(--dl-color-gray-black);
-            width: 120px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: center;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
           .nav-alunos-text48 {
             color: var(--dl-color-gray-black);
             width: 300px;
@@ -752,93 +737,22 @@ const NavAlunos = (props) => {
           }
           .nav-alunos-text49 {
             color: var(--dl-color-gray-black);
-            font-size: 1rem;
-            font-style: normal;
-            text-align: center;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-alunos-container15 {
-            gap: var(--dl-space-space-twounits);
-            flex: 0 0 auto;
-            height: 50px;
-            display: flex;
-            align-self: stretch;
-            align-items: center;
-            justify-content: flex-start;
-          }
-          .nav-alunos-text50 {
-            color: var(--dl-color-gray-black);
-            width: 170px;
+            width: 300px;
             font-size: 1rem;
             font-style: normal;
             text-align: left;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-alunos-text50 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
             font-family: Roboto Mono;
             font-weight: 600;
           }
           .nav-alunos-text51 {
-            color: var(--dl-color-gray-black);
-            width: 120px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: center;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-alunos-text52 {
-            color: var(--dl-color-gray-black);
-            width: 300px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-alunos-text53 {
-            color: var(--dl-color-gray-black);
-            font-size: 1rem;
-            font-style: normal;
-            text-align: center;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-alunos-container16 {
-            gap: var(--dl-space-space-twounits);
-            flex: 0 0 auto;
-            height: 50px;
-            display: flex;
-            align-self: stretch;
-            align-items: center;
-            justify-content: flex-start;
-          }
-          .nav-alunos-text56 {
-            color: var(--dl-color-gray-black);
-            width: 170px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-alunos-text57 {
-            color: var(--dl-color-gray-black);
-            width: 120px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: center;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-alunos-text58 {
-            color: var(--dl-color-gray-black);
-            width: 300px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-alunos-text59 {
             color: var(--dl-color-gray-black);
             font-size: 1rem;
             font-style: normal;
@@ -885,13 +799,13 @@ const NavAlunos = (props) => {
 }
 
 NavAlunos.defaultProps = {
-  heading: 'Nome: Rui Alencar Urich',
+  heading: 'Ve',
   heading1: 'RA: F982H89',
   heading2: 'Curso: Bioquímica',
   heading3: 'Turno: Manhã',
   heading4: 'Matéria',
   heading5: 'Lançamento',
-  heading6: 'Título',
+  heading6: 'Atualizações',
   heading7: 'Biodiversidade',
   heading8: 'Atividade',
   heading9: 'Atividade 01 - Diversidade',
@@ -909,17 +823,17 @@ NavAlunos.defaultProps = {
   heading21: 'Informática',
   heading22: 'Material',
   heading23: 'Mat 01 - Introdução ao quimic',
-  heading24: 'Biodiversidade',
+  heading24: 'Aquário autônomo',
   heading25: 'Atividade',
-  heading26: 'Atividade 01 - Diversidade',
-  heading27: 'Biodiversidade',
+  heading26: '1.0.2 - Bomba econômica',
+  heading27: 'Aquário Marinho autônomo',
   heading28: 'Material',
-  heading29: 'Material 01 - Animais diversos',
-  heading30: '09/03/2023',
-  heading31: 'Laboratório',
+  heading29: '1.0.4 - Bomba econômica',
+  heading30: '15/03/2023',
+  heading31: 'Biocarro',
   heading32: 'Material',
-  heading33: 'Mat 01 - Química Aplicada',
-  heading34: '08/03/2023',
+  heading33: '0.4 - Pneu de Alga processada',
+  heading34: '08/09/2023',
   heading35: 'Química',
   heading36: 'Material',
   heading37: 'Mat 01 - A matéria [INTRODUÇÃO]',
@@ -937,6 +851,9 @@ NavAlunos.defaultProps = {
   button3: 'Faltas',
   button11: 'Matérias',
   button21: 'Criações',
+  heading41: 'Nome',
+  heading301: 'Ver mais',
+  heading341: 'Ver mais',
 }
 
 NavAlunos.propTypes = {
@@ -992,6 +909,9 @@ NavAlunos.propTypes = {
   button3: PropTypes.string,
   button11: PropTypes.string,
   button21: PropTypes.string,
+  heading41: PropTypes.string,
+  heading301: PropTypes.string,
+  heading341: PropTypes.string,
 }
 
 export default NavAlunos
