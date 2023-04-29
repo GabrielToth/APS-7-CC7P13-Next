@@ -93,10 +93,12 @@ const Home = (props) => {
                       <Link href="/area-dos-alunos">
                         <a className="home-link07 link">Alunos</a>
                       </Link>
-                      <span className="home-text link">
-                        <span>Financeiro</span>
-                        <br></br>
-                      </span>
+                      <Link href="/area-financeira">
+                        <a className="home-link08 link">
+                          <span>Financeiro</span>
+                          <br></br>
+                        </a>
+                      </Link>
                     </nav>
                     <div className="home-container2">
                       <button className="home-login button">Login</button>
@@ -128,9 +130,9 @@ const Home = (props) => {
               <div className="home-center">
                 <div className="home-heading">
                   <h1 className="home-header">
-                    <span className="home-text03">Transforme vidas,</span>
-                    <br className="home-text04"></br>
-                    <span className="home-text05"> Mude o mundo.</span>
+                    <span className="home-text02">Transforme vidas,</span>
+                    <br className="home-text03"></br>
+                    <span className="home-text04"> Mude o mundo.</span>
                     <br></br>
                   </h1>
                   <p className="home-caption">
@@ -144,7 +146,7 @@ const Home = (props) => {
                         }}
                       />
                     </span>
-                    <span className="home-text10">inovação</span>
+                    <span className="home-text09">inovação</span>
                   </p>
                   <button className="home-option button-option button">
                     Conhecer
@@ -207,9 +209,9 @@ const Home = (props) => {
                 </p>
               </div>
               <Link href="/wip">
-                <a className="home-link08 button-arrow button">
-                  <span className="home-text11">Saiba mais</span>
-                  <span className="home-text12">&gt;</span>
+                <a className="home-link09 button-arrow button">
+                  <span className="home-text10">Saiba mais</span>
+                  <span className="home-text11">&gt;</span>
                 </a>
               </Link>
             </div>
@@ -244,7 +246,7 @@ const Home = (props) => {
                       }}
                     />
                   </span>
-                  <span className="home-text14">transformadas</span>
+                  <span className="home-text13">transformadas</span>
                   <span>.</span>
                   <br></br>
                   <span>
@@ -448,7 +450,7 @@ const Home = (props) => {
             </p>
           </div>
           <Link href="/wip">
-            <a className="home-link09 button">Ver criações</a>
+            <a className="home-link10 button">Ver criações</a>
           </Link>
         </section>
         <section className="home-footer">
@@ -469,47 +471,47 @@ const Home = (props) => {
               </div>
               <div className="home-links1">
                 <div className="home-items">
-                  <button className="home-link10 button button-clean">
+                  <button className="home-link11 button button-clean">
                     Professores
                   </button>
-                  <button className="home-link11 button button-clean">
+                  <button className="home-link12 button button-clean">
                     Alunos
                   </button>
-                  <button className="home-link12 button button-clean">
+                  <button className="home-link13 button button-clean">
                     Criações
                   </button>
                 </div>
                 <div className="home-items1">
                   <a
                     href="#how-it-works"
-                    className="home-link13 button button-clean"
+                    className="home-link14 button button-clean"
                   >
                     Como funciona
                   </a>
-                  <button className="home-link14 button button-clean">
+                  <button className="home-link15 button button-clean">
                     Política de Cancelamento
                   </button>
-                  <button className="home-link15 button button-clean">
+                  <button className="home-link16 button button-clean">
                     Local guides
                   </button>
-                  <button className="home-link16 button button-clean">
+                  <button className="home-link17 button button-clean">
                     Affiliate
                   </button>
                 </div>
                 <div className="home-items2">
-                  <button className="home-link17 button button-clean">
+                  <button className="home-link18 button button-clean">
                     About us
                   </button>
-                  <button className="home-link18 button button-clean">
+                  <button className="home-link19 button button-clean">
                     Blog
                   </button>
-                  <button className="home-link19 button button-clean">
+                  <button className="home-link20 button button-clean">
                     Partners
                   </button>
-                  <button className="home-link20 button button-clean">
+                  <button className="home-link21 button button-clean">
                     Faqs
                   </button>
-                  <button className="home-link21 button button-clean">
+                  <button className="home-link22 button button-clean">
                     Careers
                   </button>
                 </div>
@@ -783,7 +785,7 @@ const Home = (props) => {
             color: var(--dl-color-gray-black);
             text-decoration: none;
           }
-          .home-text {
+          .home-link08 {
             color: var(--dl-color-gray-black);
             text-decoration: none;
           }
@@ -855,7 +857,7 @@ const Home = (props) => {
             font-family: Karla;
             line-height: 27px;
           }
-          .home-text10 {
+          .home-text09 {
             color: #5bc786;
             font-style: normal;
             font-weight: 700;
@@ -1000,7 +1002,7 @@ const Home = (props) => {
             font-family: Karla;
             line-height: 27px;
           }
-          .home-link08 {
+          .home-link09 {
             padding: var(--dl-space-space-unit);
             align-items: center;
             border-color: #949aa5;
@@ -1009,11 +1011,11 @@ const Home = (props) => {
             padding-bottom: 16px;
             text-decoration: none;
           }
-          .home-text11 {
+          .home-text10 {
             font-style: normal;
             font-weight: 500;
           }
-          .home-text12 {
+          .home-text11 {
             font-style: normal;
             font-weight: 500;
           }
@@ -1094,7 +1096,7 @@ const Home = (props) => {
             font-family: Karla;
             line-height: 27px;
           }
-          .home-text14 {
+          .home-text13 {
             color: #397b53;
             font-style: normal;
             font-weight: 700;
@@ -1378,7 +1380,7 @@ const Home = (props) => {
             font-family: Karla;
             line-height: 27px;
           }
-          .home-link09 {
+          .home-link10 {
             font-style: normal;
             transition: 0.3s;
             font-weight: 500;
@@ -1391,7 +1393,7 @@ const Home = (props) => {
             text-decoration: none;
             background-color: rgb(250, 216, 122);
           }
-          .home-link09:hover {
+          .home-link10:hover {
             opacity: 0.5;
           }
           .home-footer {
@@ -1455,14 +1457,14 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-link10 {
+          .home-link11 {
             color: rgb(255, 255, 255);
           }
-          .home-link11 {
+          .home-link12 {
             color: rgb(255, 255, 255);
             text-decoration: none;
           }
-          .home-link12 {
+          .home-link13 {
             color: rgb(255, 255, 255);
             text-decoration: none;
           }
@@ -1472,12 +1474,9 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-link13 {
-            color: rgb(255, 255, 255);
-            text-decoration: none;
-          }
           .home-link14 {
             color: rgb(255, 255, 255);
+            text-decoration: none;
           }
           .home-link15 {
             color: rgb(255, 255, 255);
@@ -1485,14 +1484,14 @@ const Home = (props) => {
           .home-link16 {
             color: rgb(255, 255, 255);
           }
+          .home-link17 {
+            color: rgb(255, 255, 255);
+          }
           .home-items2 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
             flex-direction: column;
-          }
-          .home-link17 {
-            color: rgb(255, 255, 255);
           }
           .home-link18 {
             color: rgb(255, 255, 255);
@@ -1504,6 +1503,9 @@ const Home = (props) => {
             color: rgb(255, 255, 255);
           }
           .home-link21 {
+            color: rgb(255, 255, 255);
+          }
+          .home-link22 {
             color: rgb(255, 255, 255);
           }
           .home-copyright {
@@ -1638,15 +1640,15 @@ const Home = (props) => {
               font-size: 40px;
               line-height: 40px;
             }
+            .home-text02 {
+              font-size: 40px;
+              line-height: 40px;
+            }
             .home-text03 {
               font-size: 40px;
               line-height: 40px;
             }
             .home-text04 {
-              font-size: 40px;
-              line-height: 40px;
-            }
-            .home-text05 {
               font-size: 40px;
               line-height: 40px;
             }
