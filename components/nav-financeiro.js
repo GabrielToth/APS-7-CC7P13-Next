@@ -58,7 +58,7 @@ const NavFinanceiro = (props) => {
                     }}
                   />
                 </span>
-                <span className="nav-financeiro-text04">R$ 0</span>
+                <span className="nav-financeiro-text004">R$ 0</span>
               </span>
             </nav>
           </div>
@@ -114,136 +114,209 @@ const NavFinanceiro = (props) => {
         {isDashboard && (
           <div className="nav-financeiro-dashboard">
             <div className="nav-financeiro-container03">
-              <h1 className="nav-financeiro-text05">
-                <span>NOVOS ALUNOS</span>
-                <br></br>
-              </h1>
               <div className="nav-financeiro-container04">
-                <h1 className="nav-financeiro-text08">
-                  <span className="nav-financeiro-text09">+5 </span>
-                  <span className="nav-financeiro-text10">%</span>
-                  <br className="nav-financeiro-text11"></br>
-                </h1>
-              </div>
-            </div>
-            <div className="nav-financeiro-container05">
-              <h1 className="nav-financeiro-text12">
-                <span>Despesas</span>
-                <br></br>
-              </h1>
-              <div className="nav-financeiro-container06">
-                <h1 className="nav-financeiro-text15">
-                  <span className="nav-financeiro-text16">-2 </span>
-                  <span className="nav-financeiro-text17">%</span>
-                  <br className="nav-financeiro-text18"></br>
-                </h1>
-              </div>
-            </div>
-            <div className="nav-financeiro-container07">
-              <h1 className="nav-financeiro-text19">
-                <span>Valor da Companhia</span>
-                <br></br>
-              </h1>
-              <div className="nav-financeiro-container08">
-                <h1 className="nav-financeiro-text22">
-                  <span className="nav-financeiro-text23">$</span>
-                  <span className="nav-financeiro-text24">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span className="nav-financeiro-text25">3.39M</span>
-                </h1>
-              </div>
-            </div>
-            <div className="nav-financeiro-container09">
-              <h1 className="nav-financeiro-text26">
-                <span>NOVOS COLABORADRES</span>
-                <br></br>
-              </h1>
-              <div className="nav-financeiro-container10">
-                <h1 className="nav-financeiro-text29">
-                  <span className="nav-financeiro-text30">+6 </span>
+                <h1 className="nav-financeiro-text005">
+                  <span>NOVOS ALUNOS</span>
                   <br></br>
                 </h1>
+                <div className="nav-financeiro-container05">
+                  <h1 className="nav-financeiro-text008">
+                    <span className="nav-financeiro-text009">+5 </span>
+                    <span className="nav-financeiro-text010">%</span>
+                    <br className="nav-financeiro-text011"></br>
+                  </h1>
+                </div>
+              </div>
+              <div className="nav-financeiro-container06">
+                <h1 className="nav-financeiro-text012">
+                  <span>Despesas TOTAL</span>
+                  <br></br>
+                </h1>
+                <div className="nav-financeiro-container07">
+                  <h1 className="nav-financeiro-text015">
+                    <span className="nav-financeiro-text016">-2 </span>
+                    <span className="nav-financeiro-text017">%</span>
+                    <br className="nav-financeiro-text018"></br>
+                  </h1>
+                </div>
+              </div>
+              <div className="nav-financeiro-container08">
+                <h1 className="nav-financeiro-text019">
+                  <span>Valor da Companhia</span>
+                  <br></br>
+                </h1>
+                <div className="nav-financeiro-container09">
+                  <h1 className="nav-financeiro-text022">
+                    <span className="nav-financeiro-text023">BRL</span>
+                    <span className="nav-financeiro-text024">
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
+                    <span className="nav-financeiro-text025">58.39M</span>
+                  </h1>
+                </div>
+              </div>
+              <div className="nav-financeiro-container10">
+                <h1 className="nav-financeiro-text026">
+                  <span>NOVOS COLABORADRES</span>
+                  <br></br>
+                </h1>
+                <div className="nav-financeiro-container11">
+                  <h1 className="nav-financeiro-text029">
+                    <span className="nav-financeiro-text030">+6 </span>
+                    <br></br>
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <img
+              alt={props.pastedImage_alt}
+              src={props.pastedImage_src}
+              className="nav-financeiro-pasted-image"
+            />
+            <div className="nav-financeiro-container12">
+              <div className="nav-financeiro-container13">
+                <h1 className="nav-financeiro-text032">
+                  <span>Entrada</span>
+                  <br></br>
+                </h1>
+                <div className="nav-financeiro-container14">
+                  <h1 className="nav-financeiro-text035">
+                    <span className="nav-financeiro-text036">BRL </span>
+                    <span className="nav-financeiro-text037">8.7M</span>
+                    <br className="nav-financeiro-text038"></br>
+                  </h1>
+                </div>
+              </div>
+              <div className="nav-financeiro-container15">
+                <h1 className="nav-financeiro-text039">
+                  <span>Despesas</span>
+                  <br></br>
+                </h1>
+                <div className="nav-financeiro-container16">
+                  <h1 className="nav-financeiro-text042">
+                    <span className="nav-financeiro-text043">BRL </span>
+                    <span className="nav-financeiro-text044">-8.1M</span>
+                    <br className="nav-financeiro-text045"></br>
+                  </h1>
+                </div>
+              </div>
+              <div className="nav-financeiro-container17">
+                <h1 className="nav-financeiro-text046">
+                  <span>Gastos</span>
+                  <br></br>
+                </h1>
+                <div className="nav-financeiro-container18">
+                  <h1 className="nav-financeiro-text049">
+                    <span className="nav-financeiro-text050">BRL</span>
+                    <span className="nav-financeiro-text051">
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
+                    <span className="nav-financeiro-text052">310.2K</span>
+                  </h1>
+                </div>
+              </div>
+              <div className="nav-financeiro-container19">
+                <h1 className="nav-financeiro-text053">
+                  <span>Total</span>
+                  <br></br>
+                </h1>
+                <div className="nav-financeiro-container20">
+                  <h1 className="nav-financeiro-text056">
+                    <span className="nav-financeiro-text057">BRL</span>
+                    <span className="nav-financeiro-text058">
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
+                    <span className="nav-financeiro-text059">405.5K</span>
+                  </h1>
+                </div>
               </div>
             </div>
           </div>
         )}
         {isCriacoes && (
-          <div className="nav-financeiro-container11">
-            <h1 className="nav-financeiro-text32">Nome: Rui Alencar Urich</h1>
-            <h1 className="nav-financeiro-text33">RA: F982H89</h1>
-            <h1 className="nav-financeiro-text34">Curso: Bioquímica</h1>
-            <h1 className="nav-financeiro-text35">Turno: Manhã</h1>
+          <div className="nav-financeiro-container21">
+            <h1 className="nav-financeiro-text060">Nome: Rui Alencar Urich</h1>
+            <h1 className="nav-financeiro-text061">RA: F982H89</h1>
+            <h1 className="nav-financeiro-text062">Curso: Bioquímica</h1>
+            <h1 className="nav-financeiro-text063">Turno: Manhã</h1>
           </div>
         )}
         {isCriacoes && (
-          <div className="nav-financeiro-container12">
-            <h1 className="nav-financeiro-text36">Matéria</h1>
+          <div className="nav-financeiro-container22">
+            <h1 className="nav-financeiro-text064">Matéria</h1>
             {isParceiros && (
-              <h1 className="nav-financeiro-text37">
+              <h1 className="nav-financeiro-text065">
                 <span>Razão Social</span>
                 <br></br>
               </h1>
             )}
-            <h1 className="nav-financeiro-text40">Atualizações</h1>
-            <h1 className="nav-financeiro-text41">Atualizações</h1>
-            <h1 className="nav-financeiro-text42">
+            <h1 className="nav-financeiro-text068">Atualizações</h1>
+            <h1 className="nav-financeiro-text069">Atualizações</h1>
+            <h1 className="nav-financeiro-text070">
               <span>Lançamento</span>
               <br></br>
             </h1>
           </div>
         )}
         {isCriacoes && (
-          <div className="nav-financeiro-container13">
-            <div className="nav-financeiro-container14">
-              <h1 className="nav-financeiro-text45">Biodiversidade</h1>
-              <h1 className="nav-financeiro-text46">Atividade</h1>
-              <h1 className="nav-financeiro-text47">
+          <div className="nav-financeiro-container23">
+            <div className="nav-financeiro-container24">
+              <h1 className="nav-financeiro-text073">Biodiversidade</h1>
+              <h1 className="nav-financeiro-text074">Atividade</h1>
+              <h1 className="nav-financeiro-text075">
                 Atividade 01 - Diversidade
               </h1>
-              <h1 className="nav-financeiro-text48">
+              <h1 className="nav-financeiro-text076">
                 <span>09/03/2023</span>
                 <br></br>
               </h1>
             </div>
-            <div className="nav-financeiro-container15">
-              <h1 className="nav-financeiro-text51">Biodiversidade</h1>
-              <h1 className="nav-financeiro-text52">Material</h1>
-              <h1 className="nav-financeiro-text53">
+            <div className="nav-financeiro-container25">
+              <h1 className="nav-financeiro-text079">Biodiversidade</h1>
+              <h1 className="nav-financeiro-text080">Material</h1>
+              <h1 className="nav-financeiro-text081">
                 Material 01 - Animais diversos
               </h1>
-              <h1 className="nav-financeiro-text54">09/03/2023</h1>
+              <h1 className="nav-financeiro-text082">09/03/2023</h1>
             </div>
-            <div className="nav-financeiro-container16">
-              <h1 className="nav-financeiro-text55">Laboratório</h1>
-              <h1 className="nav-financeiro-text56">Material</h1>
-              <h1 className="nav-financeiro-text57">
+            <div className="nav-financeiro-container26">
+              <h1 className="nav-financeiro-text083">Laboratório</h1>
+              <h1 className="nav-financeiro-text084">Material</h1>
+              <h1 className="nav-financeiro-text085">
                 Mat 01 - Química Aplicada
               </h1>
-              <h1 className="nav-financeiro-text58">08/03/2023</h1>
+              <h1 className="nav-financeiro-text086">08/03/2023</h1>
             </div>
-            <div className="nav-financeiro-container17">
-              <h1 className="nav-financeiro-text59">Química</h1>
-              <h1 className="nav-financeiro-text60">Material</h1>
-              <h1 className="nav-financeiro-text61">
+            <div className="nav-financeiro-container27">
+              <h1 className="nav-financeiro-text087">Química</h1>
+              <h1 className="nav-financeiro-text088">Material</h1>
+              <h1 className="nav-financeiro-text089">
                 Mat 01 - A matéria [INTRODUÇÃO]
               </h1>
-              <h1 className="nav-financeiro-text62">
+              <h1 className="nav-financeiro-text090">
                 <span>07/03/2023</span>
                 <br></br>
               </h1>
             </div>
-            <div className="nav-financeiro-container18">
-              <h1 className="nav-financeiro-text65">Informática</h1>
-              <h1 className="nav-financeiro-text66">Material</h1>
-              <h1 className="nav-financeiro-text67">
+            <div className="nav-financeiro-container28">
+              <h1 className="nav-financeiro-text093">Informática</h1>
+              <h1 className="nav-financeiro-text094">Material</h1>
+              <h1 className="nav-financeiro-text095">
                 Mat 01 - Introdução ao quimic
               </h1>
-              <h1 className="nav-financeiro-text68">
+              <h1 className="nav-financeiro-text096">
                 <span>06/03/2023</span>
                 <br></br>
               </h1>
@@ -251,34 +324,38 @@ const NavFinanceiro = (props) => {
           </div>
         )}
         {isParceiros && (
-          <div className="nav-financeiro-container19">
-            <div className="nav-financeiro-container20">
-              <h1 className="nav-financeiro-text71">Aquário autônomo</h1>
-              <h1 className="nav-financeiro-text72">1.0.2 - Bomba econômica</h1>
-              <h1 className="nav-financeiro-text73">
+          <div className="nav-financeiro-container29">
+            <div className="nav-financeiro-container30">
+              <h1 className="nav-financeiro-text099">Aquário autônomo</h1>
+              <h1 className="nav-financeiro-text100">
+                1.0.2 - Bomba econômica
+              </h1>
+              <h1 className="nav-financeiro-text101">
                 <span>09/05/2023</span>
                 <br></br>
               </h1>
-              <h1 className="nav-financeiro-text76">
+              <h1 className="nav-financeiro-text104">
                 <span>Ver mais</span>
                 <br></br>
               </h1>
             </div>
-            <div className="nav-financeiro-container21">
-              <h1 className="nav-financeiro-text79">
+            <div className="nav-financeiro-container31">
+              <h1 className="nav-financeiro-text107">
                 Aquário Marinho autônomo
               </h1>
-              <h1 className="nav-financeiro-text80">1.0.4 - Bomba econômica</h1>
-              <h1 className="nav-financeiro-text81">15/03/2023</h1>
-              <h1 className="nav-financeiro-text82">Ver mais</h1>
+              <h1 className="nav-financeiro-text108">
+                1.0.4 - Bomba econômica
+              </h1>
+              <h1 className="nav-financeiro-text109">15/03/2023</h1>
+              <h1 className="nav-financeiro-text110">Ver mais</h1>
             </div>
-            <div className="nav-financeiro-container22">
-              <h1 className="nav-financeiro-text83">Biocarro</h1>
-              <h1 className="nav-financeiro-text84">
+            <div className="nav-financeiro-container32">
+              <h1 className="nav-financeiro-text111">Biocarro</h1>
+              <h1 className="nav-financeiro-text112">
                 0.4 - Pneu de Alga processada
               </h1>
-              <h1 className="nav-financeiro-text85">08/09/2023</h1>
-              <h1 className="nav-financeiro-text86">Ver mais</h1>
+              <h1 className="nav-financeiro-text113">08/09/2023</h1>
+              <h1 className="nav-financeiro-text114">Ver mais</h1>
             </div>
           </div>
         )}
@@ -369,7 +446,7 @@ const NavFinanceiro = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .nav-financeiro-text04 {
+          .nav-financeiro-text004 {
             font-style: normal;
             font-weight: 700;
           }
@@ -435,117 +512,79 @@ const NavFinanceiro = (props) => {
           .nav-financeiro-dashboard {
             gap: var(--dl-space-space-twounits);
             flex: 0 0 auto;
-            margin: var(--dl-space-space-twounits);
+            width: 100%;
             display: flex;
+            padding: var(--dl-space-space-twounits);
             align-self: stretch;
             align-items: flex-start;
+            flex-direction: column;
             justify-content: flex-start;
           }
           .nav-financeiro-container03 {
-            gap: var(--dl-space-space-halfunit);
-            width: 250px;
             display: flex;
-            padding: var(--dl-space-space-unit);
-            align-self: flex-start;
-            box-shadow: 2px 2px 0px 0px #b4ffb5;
+            align-self: stretch;
             align-items: flex-start;
-            border-radius: var(--dl-radius-radius-radius8);
-            flex-direction: column;
-            justify-content: flex-start;
-            background-color: var(--dl-color-gray-white);
-          }
-          .nav-financeiro-text05 {
-            color: var(--dl-color-gray-700);
-            font-size: 0.875rem;
-            font-style: normal;
-            font-family: Noto Sans;
-            font-weight: 500;
+            justify-content: space-between;
           }
           .nav-financeiro-container04 {
             gap: var(--dl-space-space-halfunit);
+            width: 250px;
             display: flex;
+            padding: var(--dl-space-space-unit);
+            align-self: flex-start;
+            box-shadow: 2px 2px 0px 0px #23ad6e;
             align-items: flex-start;
-            flex-direction: row;
+            border-radius: var(--dl-radius-radius-radius8);
+            flex-direction: column;
             justify-content: flex-start;
+            background-color: var(--dl-color-gray-white);
           }
-          .nav-financeiro-text08 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-family: Noto Sans;
-            font-weight: 700;
-          }
-          .nav-financeiro-text09 {
-            color: #444444;
-            font-style: normal;
-          }
-          .nav-financeiro-text10 {
+          .nav-financeiro-text005 {
             color: var(--dl-color-gray-700);
-            font-size: 1.25rem;
-            font-weight: 400;
-          }
-          .nav-financeiro-text11 {
+            font-size: 0.875rem;
             font-style: normal;
+            font-family: Noto Sans;
+            font-weight: 500;
           }
           .nav-financeiro-container05 {
             gap: var(--dl-space-space-halfunit);
-            width: 250px;
             display: flex;
-            padding: var(--dl-space-space-unit);
-            align-self: flex-start;
-            box-shadow: 2px 2px 0px 0px #b4ffb5;
             align-items: flex-start;
-            border-radius: var(--dl-radius-radius-radius8);
-            flex-direction: column;
+            flex-direction: row;
             justify-content: flex-start;
-            background-color: var(--dl-color-gray-white);
           }
-          .nav-financeiro-text12 {
-            color: var(--dl-color-gray-700);
-            font-size: 0.875rem;
-            font-style: normal;
+          .nav-financeiro-text008 {
+            color: var(--dl-color-gray-black);
+            font-size: 1.5rem;
             font-family: Noto Sans;
-            font-weight: 500;
-            text-transform: uppercase;
+            font-weight: 700;
+          }
+          .nav-financeiro-text009 {
+            color: #444444;
+            font-style: normal;
+          }
+          .nav-financeiro-text010 {
+            color: var(--dl-color-gray-700);
+            font-size: 1.25rem;
+            font-weight: 400;
+          }
+          .nav-financeiro-text011 {
+            font-style: normal;
           }
           .nav-financeiro-container06 {
             gap: var(--dl-space-space-halfunit);
-            display: flex;
-            align-items: flex-start;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .nav-financeiro-text15 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-family: Noto Sans;
-            font-weight: 700;
-          }
-          .nav-financeiro-text16 {
-            color: #444444;
-            font-style: normal;
-          }
-          .nav-financeiro-text17 {
-            color: var(--dl-color-gray-700);
-            font-size: 1.25rem;
-            font-weight: 400;
-          }
-          .nav-financeiro-text18 {
-            font-style: normal;
-          }
-          .nav-financeiro-container07 {
-            gap: var(--dl-space-space-halfunit);
             width: 250px;
             display: flex;
             padding: var(--dl-space-space-unit);
             align-self: flex-start;
-            box-shadow: 2px 2px 0px 0px #f0ffb4;
+            box-shadow: 2px 2px 0px 0px #23ad6e;
             align-items: flex-start;
             border-radius: var(--dl-radius-radius-radius8);
             flex-direction: column;
             justify-content: flex-start;
             background-color: var(--dl-color-gray-white);
           }
-          .nav-financeiro-text19 {
+          .nav-financeiro-text012 {
             color: var(--dl-color-gray-700);
             font-size: 0.875rem;
             font-style: normal;
@@ -553,431 +592,308 @@ const NavFinanceiro = (props) => {
             font-weight: 500;
             text-transform: uppercase;
           }
-          .nav-financeiro-container08 {
+          .nav-financeiro-container07 {
             gap: var(--dl-space-space-halfunit);
             display: flex;
             align-items: flex-start;
             flex-direction: row;
             justify-content: flex-start;
           }
-          .nav-financeiro-text22 {
+          .nav-financeiro-text015 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-family: Noto Sans;
             font-weight: 700;
           }
-          .nav-financeiro-text23 {
+          .nav-financeiro-text016 {
+            color: #444444;
+            font-style: normal;
+          }
+          .nav-financeiro-text017 {
             color: var(--dl-color-gray-700);
             font-size: 1.25rem;
-            font-style: normal;
             font-weight: 400;
           }
-          .nav-financeiro-text24 {
-            color: var(--dl-color-gray-700);
-            font-size: 1.25rem;
+          .nav-financeiro-text018 {
+            font-style: normal;
           }
-          .nav-financeiro-text25 {
-            color: var(--dl-color-gray-500);
-          }
-          .nav-financeiro-container09 {
+          .nav-financeiro-container08 {
             gap: var(--dl-space-space-halfunit);
             width: 250px;
             display: flex;
             padding: var(--dl-space-space-unit);
             align-self: flex-start;
-            box-shadow: 2px 2px 0px 0px #f75656;
+            box-shadow: 2px 2px 0px 0px #ebb22a;
             align-items: flex-start;
             border-radius: var(--dl-radius-radius-radius8);
             flex-direction: column;
             justify-content: flex-start;
             background-color: var(--dl-color-gray-white);
           }
-          .nav-financeiro-text26 {
+          .nav-financeiro-text019 {
             color: var(--dl-color-gray-700);
             font-size: 0.875rem;
             font-style: normal;
             font-family: Noto Sans;
             font-weight: 500;
+            text-transform: uppercase;
           }
-          .nav-financeiro-container10 {
+          .nav-financeiro-container09 {
             gap: var(--dl-space-space-halfunit);
             display: flex;
             align-items: flex-start;
             flex-direction: row;
             justify-content: flex-start;
           }
-          .nav-financeiro-text29 {
+          .nav-financeiro-text022 {
+            color: var(--dl-color-gray-black);
+            font-size: 1.5rem;
+            font-family: Noto Sans;
+            font-weight: 700;
+          }
+          .nav-financeiro-text023 {
+            color: var(--dl-color-gray-700);
+            font-size: 1.25rem;
+            font-style: normal;
+            font-weight: 400;
+          }
+          .nav-financeiro-text024 {
+            color: var(--dl-color-gray-700);
+            font-size: 1.25rem;
+          }
+          .nav-financeiro-text025 {
+            color: var(--dl-color-gray-500);
+          }
+          .nav-financeiro-container10 {
+            gap: var(--dl-space-space-halfunit);
+            width: 250px;
+            display: flex;
+            padding: var(--dl-space-space-unit);
+            align-self: flex-start;
+            box-shadow: 2px 2px 0px 0px #ba103e;
+            align-items: flex-start;
+            border-radius: var(--dl-radius-radius-radius8);
+            flex-direction: column;
+            justify-content: flex-start;
+            background-color: var(--dl-color-gray-white);
+          }
+          .nav-financeiro-text026 {
+            color: var(--dl-color-gray-700);
+            font-size: 0.875rem;
+            font-style: normal;
+            font-family: Noto Sans;
+            font-weight: 500;
+          }
+          .nav-financeiro-container11 {
+            gap: var(--dl-space-space-halfunit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: row;
+            justify-content: flex-start;
+          }
+          .nav-financeiro-text029 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-style: normal;
             font-family: Noto Sans;
             font-weight: 700;
           }
-          .nav-financeiro-text30 {
+          .nav-financeiro-text030 {
             color: #444444;
           }
-          .nav-financeiro-container11 {
-            gap: var(--dl-space-space-twounits);
-            flex: 0 0 auto;
-            height: 50px;
-            display: flex;
-            align-self: stretch;
-            align-items: center;
-            justify-content: flex-start;
-          }
-          .nav-financeiro-text32 {
-            font-size: 1rem;
-            font-style: normal;
-            font-family: Roboto Mono;
-            font-weight: 600;
-            margin-left: var(--dl-space-space-twounits);
-          }
-          .nav-financeiro-text33 {
-            font-size: 1rem;
-            font-style: normal;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text34 {
-            font-size: 1rem;
-            font-style: normal;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text35 {
-            font-size: 1rem;
-            font-style: normal;
-            font-family: Roboto Mono;
-            font-weight: 600;
+          .nav-financeiro-pasted-image {
+            width: 100%;
           }
           .nav-financeiro-container12 {
-            gap: var(--dl-space-space-twounits);
-            flex: 0 0 auto;
-            height: 50px;
+            width: 100%;
             display: flex;
-            align-self: stretch;
-            align-items: center;
-            justify-content: flex-start;
-            background-color: var(--dl-color-gray-500);
-          }
-          .nav-financeiro-text36 {
-            color: var(--dl-color-gray-white);
-            width: 170px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: center;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text37 {
-            color: var(--dl-color-gray-white);
-            width: 300px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: center;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text40 {
-            color: var(--dl-color-gray-white);
-            width: 300px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: center;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text41 {
-            color: var(--dl-color-gray-white);
-            width: 300px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: center;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text42 {
-            color: var(--dl-color-gray-white);
-            font-size: 1rem;
-            font-style: normal;
-            text-align: center;
-            font-family: Roboto Mono;
-            font-weight: 600;
+            align-items: flex-start;
+            justify-content: space-between;
           }
           .nav-financeiro-container13 {
+            gap: var(--dl-space-space-halfunit);
+            width: 250px;
             display: flex;
+            padding: var(--dl-space-space-unit);
+            align-self: flex-start;
+            box-shadow: 2px 5px 5px 0px rgba(212, 212, 212, 0.25);
             align-items: flex-start;
+            border-radius: var(--dl-radius-radius-radius4);
             flex-direction: column;
             justify-content: flex-start;
+            background-color: var(--dl-color-gray-white);
+          }
+          .nav-financeiro-text032 {
+            color: var(--dl-color-gray-700);
+            font-size: 0.875rem;
+            font-style: normal;
+            font-family: Noto Sans;
+            font-weight: 500;
+            text-transform: capitalize;
           }
           .nav-financeiro-container14 {
-            gap: var(--dl-space-space-twounits);
-            flex: 0 0 auto;
-            height: 50px;
-            display: flex;
-            align-self: stretch;
-            align-items: center;
-            justify-content: flex-start;
-          }
-          .nav-financeiro-text45 {
-            color: var(--dl-color-gray-black);
-            width: 170px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text46 {
-            color: var(--dl-color-gray-black);
-            width: 120px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: center;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text47 {
-            color: var(--dl-color-gray-black);
-            width: 300px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text48 {
-            color: var(--dl-color-gray-black);
-            font-size: 1rem;
-            font-style: normal;
-            text-align: center;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-container15 {
-            gap: var(--dl-space-space-twounits);
-            flex: 0 0 auto;
-            height: 50px;
-            display: flex;
-            align-self: stretch;
-            align-items: center;
-            justify-content: flex-start;
-          }
-          .nav-financeiro-text51 {
-            color: var(--dl-color-gray-black);
-            width: 170px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text52 {
-            color: var(--dl-color-gray-black);
-            width: 120px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: center;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text53 {
-            color: var(--dl-color-gray-black);
-            width: 300px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text54 {
-            color: var(--dl-color-gray-black);
-            font-size: 1rem;
-            font-style: normal;
-            text-align: center;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-container16 {
-            gap: var(--dl-space-space-twounits);
-            flex: 0 0 auto;
-            height: 50px;
-            display: flex;
-            align-self: stretch;
-            align-items: center;
-            justify-content: flex-start;
-          }
-          .nav-financeiro-text55 {
-            color: var(--dl-color-gray-black);
-            width: 170px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text56 {
-            color: var(--dl-color-gray-black);
-            width: 120px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: center;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text57 {
-            color: var(--dl-color-gray-black);
-            width: 300px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text58 {
-            color: var(--dl-color-gray-black);
-            font-size: 1rem;
-            font-style: normal;
-            text-align: center;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-container17 {
-            gap: var(--dl-space-space-twounits);
-            flex: 0 0 auto;
-            height: 50px;
-            display: flex;
-            align-self: stretch;
-            align-items: center;
-            justify-content: flex-start;
-          }
-          .nav-financeiro-text59 {
-            color: var(--dl-color-gray-black);
-            width: 170px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text60 {
-            color: var(--dl-color-gray-black);
-            width: 120px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: center;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text61 {
-            color: var(--dl-color-gray-black);
-            width: 300px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text62 {
-            color: var(--dl-color-gray-black);
-            font-size: 1rem;
-            font-style: normal;
-            text-align: center;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-container18 {
-            gap: var(--dl-space-space-twounits);
-            flex: 0 0 auto;
-            height: 50px;
-            display: flex;
-            align-self: stretch;
-            align-items: center;
-            justify-content: flex-start;
-          }
-          .nav-financeiro-text65 {
-            color: var(--dl-color-gray-black);
-            width: 170px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text66 {
-            color: var(--dl-color-gray-black);
-            width: 120px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: center;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text67 {
-            color: var(--dl-color-gray-black);
-            width: 300px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text68 {
-            color: var(--dl-color-gray-black);
-            font-size: 1rem;
-            font-style: normal;
-            text-align: center;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-container19 {
+            gap: var(--dl-space-space-halfunit);
             display: flex;
             align-items: flex-start;
+            flex-direction: row;
+            justify-content: flex-start;
+          }
+          .nav-financeiro-text035 {
+            color: var(--dl-color-gray-black);
+            font-size: 1.5rem;
+            font-family: Noto Sans;
+            font-weight: 700;
+          }
+          .nav-financeiro-text036 {
+            color: var(--dl-color-gray-700);
+            font-size: 1.25rem;
+            font-weight: 400;
+          }
+          .nav-financeiro-text037 {
+            color: var(--dl-color-gray-444);
+          }
+          .nav-financeiro-text038 {
+            font-style: normal;
+          }
+          .nav-financeiro-container15 {
+            gap: var(--dl-space-space-halfunit);
+            width: 250px;
+            display: flex;
+            padding: var(--dl-space-space-unit);
+            align-self: flex-start;
+            box-shadow: 2px 5px 5px 0px rgba(212, 212, 212, 0.25);
+            align-items: flex-start;
+            border-radius: var(--dl-radius-radius-radius4);
             flex-direction: column;
             justify-content: flex-start;
+            background-color: var(--dl-color-gray-white);
           }
-          .nav-financeiro-container20 {
-            gap: var(--dl-space-space-twounits);
-            flex: 0 0 auto;
-            height: 50px;
+          .nav-financeiro-text039 {
+            color: var(--dl-color-gray-700);
+            font-size: 0.875rem;
+            font-style: normal;
+            font-family: Noto Sans;
+            font-weight: 500;
+            text-transform: capitalize;
+          }
+          .nav-financeiro-container16 {
+            gap: var(--dl-space-space-halfunit);
             display: flex;
-            align-self: stretch;
-            align-items: center;
+            align-items: flex-start;
+            flex-direction: row;
             justify-content: flex-start;
           }
-          .nav-financeiro-text71 {
+          .nav-financeiro-text042 {
             color: var(--dl-color-gray-black);
-            width: 300px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Roboto Mono;
-            font-weight: 600;
+            font-size: 1.5rem;
+            font-family: Noto Sans;
+            font-weight: 700;
           }
-          .nav-financeiro-text72 {
-            color: var(--dl-color-gray-black);
-            width: 300px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Roboto Mono;
-            font-weight: 600;
+          .nav-financeiro-text043 {
+            color: var(--dl-color-gray-700);
+            font-size: 1.25rem;
+            font-weight: 400;
           }
-          .nav-financeiro-text73 {
-            color: var(--dl-color-gray-black);
-            font-size: 1rem;
+          .nav-financeiro-text044 {
+            color: #444444;
             font-style: normal;
-            text-align: center;
-            font-family: Roboto Mono;
-            font-weight: 600;
           }
-          .nav-financeiro-text76 {
-            color: var(--dl-color-gray-black);
-            font-size: 1rem;
+          .nav-financeiro-text045 {
             font-style: normal;
-            text-align: center;
-            font-family: Roboto Mono;
-            font-weight: 600;
+          }
+          .nav-financeiro-container17 {
+            gap: var(--dl-space-space-halfunit);
+            width: 250px;
+            display: flex;
+            padding: var(--dl-space-space-unit);
+            align-self: flex-start;
+            box-shadow: 2px 5px 5px 0px rgba(212, 212, 212, 0.25);
+            align-items: flex-start;
+            border-radius: var(--dl-radius-radius-radius4);
+            flex-direction: column;
+            justify-content: flex-start;
+            background-color: var(--dl-color-gray-white);
+          }
+          .nav-financeiro-text046 {
+            color: var(--dl-color-gray-700);
+            font-size: 0.875rem;
+            font-style: normal;
+            font-family: Noto Sans;
+            font-weight: 500;
+            text-transform: capitalize;
+          }
+          .nav-financeiro-container18 {
+            gap: var(--dl-space-space-halfunit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: row;
+            justify-content: flex-start;
+          }
+          .nav-financeiro-text049 {
+            color: var(--dl-color-gray-black);
+            font-size: 1.5rem;
+            font-family: Noto Sans;
+            font-weight: 700;
+          }
+          .nav-financeiro-text050 {
+            color: var(--dl-color-gray-700);
+            font-size: 1.25rem;
+            font-style: normal;
+            font-weight: 400;
+          }
+          .nav-financeiro-text051 {
+            color: var(--dl-color-gray-700);
+            font-size: 1.25rem;
+          }
+          .nav-financeiro-text052 {
+            color: var(--dl-color-gray-444);
+          }
+          .nav-financeiro-container19 {
+            gap: var(--dl-space-space-halfunit);
+            width: 250px;
+            display: flex;
+            padding: var(--dl-space-space-unit);
+            align-self: flex-start;
+            box-shadow: 2px 5px 5px 0px rgba(212, 212, 212, 0.25);
+            align-items: flex-start;
+            border-radius: var(--dl-radius-radius-radius4);
+            flex-direction: column;
+            justify-content: flex-start;
+            background-color: var(--dl-color-gray-white);
+          }
+          .nav-financeiro-text053 {
+            color: var(--dl-color-gray-700);
+            font-size: 0.875rem;
+            font-style: normal;
+            font-family: Noto Sans;
+            font-weight: 500;
+            text-transform: capitalize;
+          }
+          .nav-financeiro-container20 {
+            gap: var(--dl-space-space-halfunit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: row;
+            justify-content: flex-start;
+          }
+          .nav-financeiro-text056 {
+            color: var(--dl-color-gray-black);
+            font-size: 1.5rem;
+            font-family: Noto Sans;
+            font-weight: 700;
+          }
+          .nav-financeiro-text057 {
+            color: var(--dl-color-gray-700);
+            font-size: 1.25rem;
+            font-style: normal;
+            font-weight: 400;
+          }
+          .nav-financeiro-text058 {
+            color: var(--dl-color-gray-700);
+            font-size: 1.25rem;
+          }
+          .nav-financeiro-text059 {
+            color: var(--dl-color-gray-444);
           }
           .nav-financeiro-container21 {
             gap: var(--dl-space-space-twounits);
@@ -988,37 +904,28 @@ const NavFinanceiro = (props) => {
             align-items: center;
             justify-content: flex-start;
           }
-          .nav-financeiro-text79 {
-            color: var(--dl-color-gray-black);
-            width: 300px;
+          .nav-financeiro-text060 {
             font-size: 1rem;
             font-style: normal;
-            text-align: left;
+            font-family: Roboto Mono;
+            font-weight: 600;
+            margin-left: var(--dl-space-space-twounits);
+          }
+          .nav-financeiro-text061 {
+            font-size: 1rem;
+            font-style: normal;
             font-family: Roboto Mono;
             font-weight: 600;
           }
-          .nav-financeiro-text80 {
-            color: var(--dl-color-gray-black);
-            width: 300px;
+          .nav-financeiro-text062 {
             font-size: 1rem;
             font-style: normal;
-            text-align: left;
             font-family: Roboto Mono;
             font-weight: 600;
           }
-          .nav-financeiro-text81 {
-            color: var(--dl-color-gray-black);
+          .nav-financeiro-text063 {
             font-size: 1rem;
             font-style: normal;
-            text-align: center;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text82 {
-            color: var(--dl-color-gray-black);
-            font-size: 1rem;
-            font-style: normal;
-            text-align: center;
             font-family: Roboto Mono;
             font-weight: 600;
           }
@@ -1030,8 +937,86 @@ const NavFinanceiro = (props) => {
             align-self: stretch;
             align-items: center;
             justify-content: flex-start;
+            background-color: var(--dl-color-gray-500);
           }
-          .nav-financeiro-text83 {
+          .nav-financeiro-text064 {
+            color: var(--dl-color-gray-white);
+            width: 170px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text065 {
+            color: var(--dl-color-gray-white);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text068 {
+            color: var(--dl-color-gray-white);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text069 {
+            color: var(--dl-color-gray-white);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text070 {
+            color: var(--dl-color-gray-white);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-container23 {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .nav-financeiro-container24 {
+            gap: var(--dl-space-space-twounits);
+            flex: 0 0 auto;
+            height: 50px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .nav-financeiro-text073 {
+            color: var(--dl-color-gray-black);
+            width: 170px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: left;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text074 {
+            color: var(--dl-color-gray-black);
+            width: 120px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text075 {
             color: var(--dl-color-gray-black);
             width: 300px;
             font-size: 1rem;
@@ -1040,16 +1025,7 @@ const NavFinanceiro = (props) => {
             font-family: Roboto Mono;
             font-weight: 600;
           }
-          .nav-financeiro-text84 {
-            color: var(--dl-color-gray-black);
-            width: 300px;
-            font-size: 1rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Roboto Mono;
-            font-weight: 600;
-          }
-          .nav-financeiro-text85 {
+          .nav-financeiro-text076 {
             color: var(--dl-color-gray-black);
             font-size: 1rem;
             font-style: normal;
@@ -1057,7 +1033,310 @@ const NavFinanceiro = (props) => {
             font-family: Roboto Mono;
             font-weight: 600;
           }
-          .nav-financeiro-text86 {
+          .nav-financeiro-container25 {
+            gap: var(--dl-space-space-twounits);
+            flex: 0 0 auto;
+            height: 50px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .nav-financeiro-text079 {
+            color: var(--dl-color-gray-black);
+            width: 170px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: left;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text080 {
+            color: var(--dl-color-gray-black);
+            width: 120px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text081 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: left;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text082 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-container26 {
+            gap: var(--dl-space-space-twounits);
+            flex: 0 0 auto;
+            height: 50px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .nav-financeiro-text083 {
+            color: var(--dl-color-gray-black);
+            width: 170px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: left;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text084 {
+            color: var(--dl-color-gray-black);
+            width: 120px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text085 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: left;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text086 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-container27 {
+            gap: var(--dl-space-space-twounits);
+            flex: 0 0 auto;
+            height: 50px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .nav-financeiro-text087 {
+            color: var(--dl-color-gray-black);
+            width: 170px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: left;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text088 {
+            color: var(--dl-color-gray-black);
+            width: 120px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text089 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: left;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text090 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-container28 {
+            gap: var(--dl-space-space-twounits);
+            flex: 0 0 auto;
+            height: 50px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .nav-financeiro-text093 {
+            color: var(--dl-color-gray-black);
+            width: 170px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: left;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text094 {
+            color: var(--dl-color-gray-black);
+            width: 120px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text095 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: left;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text096 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-container29 {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .nav-financeiro-container30 {
+            gap: var(--dl-space-space-twounits);
+            flex: 0 0 auto;
+            height: 50px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .nav-financeiro-text099 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: left;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text100 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: left;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text101 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text104 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-container31 {
+            gap: var(--dl-space-space-twounits);
+            flex: 0 0 auto;
+            height: 50px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .nav-financeiro-text107 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: left;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text108 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: left;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text109 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text110 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-container32 {
+            gap: var(--dl-space-space-twounits);
+            flex: 0 0 auto;
+            height: 50px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .nav-financeiro-text111 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: left;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text112 {
+            color: var(--dl-color-gray-black);
+            width: 300px;
+            font-size: 1rem;
+            font-style: normal;
+            text-align: left;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text113 {
+            color: var(--dl-color-gray-black);
+            font-size: 1rem;
+            font-style: normal;
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: 600;
+          }
+          .nav-financeiro-text114 {
             color: var(--dl-color-gray-black);
             font-size: 1rem;
             font-style: normal;
@@ -1117,6 +1396,8 @@ NavFinanceiro.defaultProps = {
   image_alt: 'image',
   image_src1: 'https://play.teleporthq.io/static/svg/default-img.svg',
   image_alt1: 'image',
+  pastedImage_src: '/playground_assets/pastedimage-mo4h-1500h.png',
+  pastedImage_alt: 'pastedImage',
 }
 
 NavFinanceiro.propTypes = {
@@ -1125,6 +1406,8 @@ NavFinanceiro.propTypes = {
   image_alt: PropTypes.string,
   image_src1: PropTypes.string,
   image_alt1: PropTypes.string,
+  pastedImage_src: PropTypes.string,
+  pastedImage_alt: PropTypes.string,
 }
 
 export default NavFinanceiro
